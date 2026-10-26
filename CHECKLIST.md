@@ -48,7 +48,8 @@ Não há promessa de equivalência integral ao 5etools. Dados editoriais restrit
 - [x] Instalação limpa, PDF.js por npm e testes sem a biblioteca pessoal
 - [x] Guia de login, importação consciente de backup, manutenção e custos
 - [x] Repositório privado criado pelo proprietário e acesso de gravação confirmado pela integração
-- [ ] Enviar código e comparar hashes da árvore remota com o pacote local
+- [x] Código enviado à main: 63 arquivos; caminhos, modos, tamanhos e hashes conferidos na árvore remota
+- [x] Visibilidade Private confirmada novamente após o envio; sem arquivos pessoais ou segredos no pacote
 - [ ] Contratar hospedagem: proprietário decidiu não contratar por enquanto; manter preparado
 - [ ] Configurar OAuth externo e publicar o container
 - [ ] Verificar HTTPS, duas contas reais, volume e reinício/republicação no host

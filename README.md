@@ -2,6 +2,8 @@
 
 Aplicação pessoal em português brasileiro para preparar e narrar campanhas de D&D. Servidor em Node.js 24, SQLite local e interface web sem etapa de build. O modo local não exige conta ou chave de IA. Uma cópia obtida do GitHub usa `npm ci` para instalar PDF.js antes de iniciar; esta instalação já contém os arquivos necessários.
 
+Repositório privado: [fariina/grimorio-do-mestre](https://github.com/fariina/grimorio-do-mestre), branch `main`. O código foi publicado; **a aplicação ainda não está hospedada online**. Por decisão do proprietário, a configuração do Render fica preparada, sem contratar serviço pago. Seus dados pessoais não acompanham o repositório.
+
 ## Abrir no seu computador
 
 1. Na pasta `C:\Users\andre.farina\Documents\Site DND`, dê dois cliques em **Iniciar.cmd**.

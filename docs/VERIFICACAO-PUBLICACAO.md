@@ -35,15 +35,21 @@ Verificação local em navegador conectado, `127.0.0.1:3211`, com banco de QA is
 
 Verificados: criação de campanha 2014, formulário de encontro, seleção do encontro de destino, inclusão de três Goblins, dano somente no segundo participante (PV 7/4/7), condição Envenenado somente no primeiro e início de combate preservando o estado. O tema, navegação, formulários e cards foram inspecionados visualmente. Isso não substitui o teste da aplicação publicada em HTTPS.
 
+## Código publicado no GitHub
+
+Repositório: [fariina/grimorio-do-mestre](https://github.com/fariina/grimorio-do-mestre), criado pelo proprietário. A integração confirmou a conta `fariina` (ID 84630880), a visibilidade **Private** e a permissão de gravação antes e depois do envio.
+
+Código publicado em `main`, commit [68cd637e486946308a6b02d79084d0cf20788cad](https://github.com/fariina/grimorio-do-mestre/commit/68cd637e486946308a6b02d79084d0cf20788cad). A verificação posterior leu branch, commit e árvore completa pela API: **63 arquivos**, sem truncamento, todos com caminho, tamanho, modo e hash de objeto Git idênticos ao pacote local auditado. O commit inicial do proprietário foi preservado como ancestral, sem envio forçado. Este relatório e o README recebem em seguida a atualização documental do resultado.
+
+Nenhum arquivo extra apareceu na árvore: bancos, backups, livros, arquivos `.env` reais, caches e temporários ficaram fora. Os arquivos `.env.example` e `.env.production.example` são modelos sem segredos. A suíte de 33 testes e o guia de instalação fazem parte da distribuição. A biblioteca e as campanhas online não são preenchidas por esse envio.
+
 ## Pendências externas — não verificadas
 
-- Envio do código e conferência remota: o proprietário criou [fariina/grimorio-do-mestre](https://github.com/fariina/grimorio-do-mestre). A integração confirmou a conta `fariina` (ID 84630880), a visibilidade **Private** e a permissão de gravação. A árvore inicial contém somente README.md. O envio usa a lista positiva de arquivos; o fechamento desta etapa exige comparar a árvore remota com o pacote local.
 - Render: o proprietário decidiu **não contratar por enquanto**, mantendo apenas a configuração preparada. Nenhum serviço pago foi criado. Conexão, contratação e publicação ficam suspensas até nova instrução explícita; não solicitar novamente aprovação de custo nesta etapa.
 - Registrar OAuth App na conta GitHub e configurar Client ID/Secret no painel do provedor; não há segredos externos disponíveis nesta preparação.
 - Construção e execução da imagem Docker no Render: Docker não está instalado nesta máquina. Instalação de dependências e execução Node foram testadas; build de container não foi declarado aprovado.
 - Login real de `fariina`, rejeição real de segunda conta e verificação HTTPS/cookies no host definitivo.
 - Confirmar disco montado e gravável em `/var/data`; reiniciar e republicar o serviço verificando os mesmos dados. Testes locais de reabertura não comprovam a persistência do provedor.
 - Testar fluxo completo e backup/restauração na URL definitiva, com dados de verificação antes de importar qualquer conteúdo pessoal.
-- Conferir novamente a visibilidade Private e os hashes de todos os arquivos no GitHub após o envio.
 
 O link do repositório privado está confirmado. A aplicação ainda não tem URL online, pois a contratação foi adiada pelo proprietário. O procedimento e o checklist de validação externa estão em [PUBLICACAO.md](PUBLICACAO.md).
