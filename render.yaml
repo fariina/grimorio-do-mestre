@@ -1,0 +1,44 @@
+# PROPOSTA DE IMPLANTAÇÃO PAGA. Não aplicar antes da aprovação do proprietário.
+# Decisão atual: não contratar por enquanto; manter somente a configuração preparada.
+# Estimativa verificada em 2026-10-26: US$ 7/mês + US$ 0,25/mês por 1 GB de disco.
+# Não cria banco gerenciado, serviço de tradução ou ambiente de prévia.
+services:
+  - type: web
+    name: grimorio-do-mestre
+    runtime: docker
+    plan: starter
+    region: virginia
+    numInstances: 1
+    autoDeployTrigger: off
+    healthCheckPath: /healthz
+    disk:
+      name: grimorio-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: AUTH_MODE
+        value: github
+      - key: HOST
+        value: 0.0.0.0
+      - key: TRUST_PROXY
+        value: "true"
+      - key: GITHUB_OWNER_ID
+        value: "84630880"
+      - key: GITHUB_CLIENT_ID
+        sync: false
+      - key: GITHUB_CLIENT_SECRET
+        sync: false
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: DATA_DIR
+        value: /var/data
+      - key: DB_PATH
+        value: /var/data/grimorio.sqlite
+      - key: AUTH_DB_PATH
+        value: /var/data/auth.sqlite
+      - key: BACKUP_DIR
+        value: /var/data/backups
+      - key: MAX_UPLOAD_BYTES
+        value: "60000000"

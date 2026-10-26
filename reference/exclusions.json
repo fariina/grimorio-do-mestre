@@ -1,0 +1,1885 @@
+[
+  {
+    "name": "Activate an Item",
+    "alias": "Activate an Item",
+    "category": "action",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Don or Doff a Shield",
+    "alias": "Don or Doff a Shield",
+    "category": "action",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Don or Doff a Shield",
+    "alias": "Don or Doff a Shield",
+    "category": "action",
+    "source": "XPHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Escape a Grapple",
+    "alias": "Escape a Grapple",
+    "category": "action",
+    "source": "XPHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Re-Horakhty",
+    "alias": "Re-Horakhty",
+    "category": "deity",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Arrows (20)",
+    "alias": "Arrows (20)",
+    "category": "baseitem",
+    "source": "XPHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Bolts (20)",
+    "alias": "Bolts (20)",
+    "category": "baseitem",
+    "source": "XPHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Dulcimer",
+    "alias": "Dulcimer",
+    "category": "baseitem",
+    "source": "XPHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Firearm Bullets (10)",
+    "alias": "Firearm Bullets (10)",
+    "category": "baseitem",
+    "source": "XPHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Half Plate Armor",
+    "alias": "Half Plate Armor",
+    "category": "baseitem",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Needles (50)",
+    "alias": "Needles (50)",
+    "category": "baseitem",
+    "source": "XPHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Sling Bullets (20)",
+    "alias": "Sling Bullets (20)",
+    "category": "baseitem",
+    "source": "XPHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Splint Armor",
+    "alias": "Splint Armor",
+    "category": "baseitem",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Generic Object",
+    "alias": "Generic Object",
+    "category": "object",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "+1 Wand of the War Mage",
+    "alias": "+1 Wand of the War Mage",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "+1 Wand of the War Mage",
+    "alias": "+1 Wand of the War Mage",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "+2 Wand of the War Mage",
+    "alias": "+2 Wand of the War Mage",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "+2 Wand of the War Mage",
+    "alias": "+2 Wand of the War Mage",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "+3 Wand of the War Mage",
+    "alias": "+3 Wand of the War Mage",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "+3 Wand of the War Mage",
+    "alias": "+3 Wand of the War Mage",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ale (gallon)",
+    "alias": "Ale (gallon)",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ale (mug)",
+    "alias": "Ale (mug)",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Armor of Vulnerability (Bludgeoning)",
+    "alias": "Armor of Vulnerability (Bludgeoning)",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Armor of Vulnerability (Piercing)",
+    "alias": "Armor of Vulnerability (Piercing)",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Armor of Vulnerability (Slashing)",
+    "alias": "Armor of Vulnerability (Slashing)",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Bag of Tricks, Gray",
+    "alias": "Bag of Tricks, Gray",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Bag of Tricks, Gray",
+    "alias": "Bag of Tricks, Gray",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Bag of Tricks, Rust",
+    "alias": "Bag of Tricks, Rust",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Bag of Tricks, Rust",
+    "alias": "Bag of Tricks, Rust",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Bag of Tricks, Tan",
+    "alias": "Bag of Tricks, Tan",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Bag of Tricks, Tan",
+    "alias": "Bag of Tricks, Tan",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Basic Poison (vial)",
+    "alias": "Basic Poison (vial)",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Belt of Cloud Giant Strength",
+    "alias": "Belt of Cloud Giant Strength",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Belt of Cloud Giant Strength",
+    "alias": "Belt of Cloud Giant Strength",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Belt of Fire Giant Strength",
+    "alias": "Belt of Fire Giant Strength",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Belt of Fire Giant Strength",
+    "alias": "Belt of Fire Giant Strength",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Belt of Frost Giant Strength",
+    "alias": "Belt of Frost Giant Strength",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Belt of Hill Giant Strength",
+    "alias": "Belt of Hill Giant Strength",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Belt of Hill Giant Strength",
+    "alias": "Belt of Hill Giant Strength",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Belt of Stone Giant Strength",
+    "alias": "Belt of Stone Giant Strength",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Belt of Storm Giant Strength",
+    "alias": "Belt of Storm Giant Strength",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Belt of Storm Giant Strength",
+    "alias": "Belt of Storm Giant Strength",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Black Dragon Scale Mail",
+    "alias": "Black Dragon Scale Mail",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Black Dragon Scale Mail",
+    "alias": "Black Dragon Scale Mail",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Blue Dragon Scale Mail",
+    "alias": "Blue Dragon Scale Mail",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Blue Dragon Scale Mail",
+    "alias": "Blue Dragon Scale Mail",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Brass Dragon Scale Mail",
+    "alias": "Brass Dragon Scale Mail",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Brass Dragon Scale Mail",
+    "alias": "Brass Dragon Scale Mail",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Bronze Dragon Scale Mail",
+    "alias": "Bronze Dragon Scale Mail",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Bronze Dragon Scale Mail",
+    "alias": "Bronze Dragon Scale Mail",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Canvas (1 sq. yd.)",
+    "alias": "Canvas (1 sq. yd.)",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Carpet of Flying, 3 ft. × 5 ft.",
+    "alias": "Carpet of Flying, 3 ft. × 5 ft.",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Carpet of Flying, 3 ft. × 5 ft.",
+    "alias": "Carpet of Flying, 3 ft. × 5 ft.",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Carpet of Flying, 4 ft. × 6 ft.",
+    "alias": "Carpet of Flying, 4 ft. × 6 ft.",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Carpet of Flying, 4 ft. × 6 ft.",
+    "alias": "Carpet of Flying, 4 ft. × 6 ft.",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Carpet of Flying, 5 ft. × 7 ft.",
+    "alias": "Carpet of Flying, 5 ft. × 7 ft.",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Carpet of Flying, 5 ft. × 7 ft.",
+    "alias": "Carpet of Flying, 5 ft. × 7 ft.",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Carpet of Flying, 6 ft. × 9 ft.",
+    "alias": "Carpet of Flying, 6 ft. × 9 ft.",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Carpet of Flying, 6 ft. × 9 ft.",
+    "alias": "Carpet of Flying, 6 ft. × 9 ft.",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Chunk of Meat",
+    "alias": "Chunk of Meat",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Common Wine (bottle)",
+    "alias": "Common Wine (bottle)",
+    "category": "item",
+    "source": "XPHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Common Wine (pitcher)",
+    "alias": "Common Wine (pitcher)",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Copper Dragon Scale Mail",
+    "alias": "Copper Dragon Scale Mail",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Copper Dragon Scale Mail",
+    "alias": "Copper Dragon Scale Mail",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Costume Clothes",
+    "alias": "Costume Clothes",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Cotton Cloth (1 sq. yd.)",
+    "alias": "Cotton Cloth (1 sq. yd.)",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Crossbow Bolt Case",
+    "alias": "Crossbow Bolt Case",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Dice Set",
+    "alias": "Dice Set",
+    "category": "item",
+    "source": "XPHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Dragonchess Set",
+    "alias": "Dragonchess Set",
+    "category": "item",
+    "source": "XPHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Elemental Gem, Blue Sapphire",
+    "alias": "Elemental Gem, Blue Sapphire",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Elemental Gem, Blue Sapphire",
+    "alias": "Elemental Gem, Blue Sapphire",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Elemental Gem, Emerald",
+    "alias": "Elemental Gem, Emerald",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Elemental Gem, Emerald",
+    "alias": "Elemental Gem, Emerald",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Elemental Gem, Red Corundum",
+    "alias": "Elemental Gem, Red Corundum",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Elemental Gem, Red Corundum",
+    "alias": "Elemental Gem, Red Corundum",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Elemental Gem, Yellow Diamond",
+    "alias": "Elemental Gem, Yellow Diamond",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Elemental Gem, Yellow Diamond",
+    "alias": "Elemental Gem, Yellow Diamond",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Feed (per day)",
+    "alias": "Feed (per day)",
+    "category": "item",
+    "source": "XPHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Bronze Griffon",
+    "alias": "Figurine of Wondrous Power, Bronze Griffon",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Bronze Griffon",
+    "alias": "Figurine of Wondrous Power, Bronze Griffon",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Ebony Fly",
+    "alias": "Figurine of Wondrous Power, Ebony Fly",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Ebony Fly",
+    "alias": "Figurine of Wondrous Power, Ebony Fly",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Golden Lions",
+    "alias": "Figurine of Wondrous Power, Golden Lions",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Golden Lions",
+    "alias": "Figurine of Wondrous Power, Golden Lions",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Ivory Goats",
+    "alias": "Figurine of Wondrous Power, Ivory Goats",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Ivory Goats",
+    "alias": "Figurine of Wondrous Power, Ivory Goats",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Marble Elephant",
+    "alias": "Figurine of Wondrous Power, Marble Elephant",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Marble Elephant",
+    "alias": "Figurine of Wondrous Power, Marble Elephant",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Obsidian Steed",
+    "alias": "Figurine of Wondrous Power, Obsidian Steed",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Obsidian Steed",
+    "alias": "Figurine of Wondrous Power, Obsidian Steed",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Onyx Dog",
+    "alias": "Figurine of Wondrous Power, Onyx Dog",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Onyx Dog",
+    "alias": "Figurine of Wondrous Power, Onyx Dog",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Serpentine Owl",
+    "alias": "Figurine of Wondrous Power, Serpentine Owl",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Serpentine Owl",
+    "alias": "Figurine of Wondrous Power, Serpentine Owl",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Silver Raven",
+    "alias": "Figurine of Wondrous Power, Silver Raven",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Figurine of Wondrous Power, Silver Raven",
+    "alias": "Figurine of Wondrous Power, Silver Raven",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Fine Wine (bottle)",
+    "alias": "Fine Wine (bottle)",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Fine Wine (bottle)",
+    "alias": "Fine Wine (bottle)",
+    "category": "item",
+    "source": "XPHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Glass Bottle",
+    "alias": "Glass Bottle",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Gold Dragon Scale Mail",
+    "alias": "Gold Dragon Scale Mail",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Gold Dragon Scale Mail",
+    "alias": "Gold Dragon Scale Mail",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Green Dragon Scale Mail",
+    "alias": "Green Dragon Scale Mail",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Green Dragon Scale Mail",
+    "alias": "Green Dragon Scale Mail",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Hempen Rope (50 feet)",
+    "alias": "Hempen Rope (50 feet)",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Horn of Valhalla, Brass",
+    "alias": "Horn of Valhalla, Brass",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Horn of Valhalla, Brass",
+    "alias": "Horn of Valhalla, Brass",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Horn of Valhalla, Bronze",
+    "alias": "Horn of Valhalla, Bronze",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Horn of Valhalla, Bronze",
+    "alias": "Horn of Valhalla, Bronze",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Horn of Valhalla, Iron",
+    "alias": "Horn of Valhalla, Iron",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Horn of Valhalla, Iron",
+    "alias": "Horn of Valhalla, Iron",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Horn of Valhalla, Silver",
+    "alias": "Horn of Valhalla, Silver",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Horn of Valhalla, Silver",
+    "alias": "Horn of Valhalla, Silver",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Hunk of Cheese",
+    "alias": "Hunk of Cheese",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ink (1-ounce bottle)",
+    "alias": "Ink (1-ounce bottle)",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Absorption",
+    "alias": "Ioun Stone, Absorption",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Absorption",
+    "alias": "Ioun Stone, Absorption",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Agility",
+    "alias": "Ioun Stone, Agility",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Agility",
+    "alias": "Ioun Stone, Agility",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Awareness",
+    "alias": "Ioun Stone, Awareness",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Awareness",
+    "alias": "Ioun Stone, Awareness",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Fortitude",
+    "alias": "Ioun Stone, Fortitude",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Fortitude",
+    "alias": "Ioun Stone, Fortitude",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Greater Absorption",
+    "alias": "Ioun Stone, Greater Absorption",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Greater Absorption",
+    "alias": "Ioun Stone, Greater Absorption",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Insight",
+    "alias": "Ioun Stone, Insight",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Insight",
+    "alias": "Ioun Stone, Insight",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Intellect",
+    "alias": "Ioun Stone, Intellect",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Intellect",
+    "alias": "Ioun Stone, Intellect",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Leadership",
+    "alias": "Ioun Stone, Leadership",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Leadership",
+    "alias": "Ioun Stone, Leadership",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Mastery",
+    "alias": "Ioun Stone, Mastery",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Mastery",
+    "alias": "Ioun Stone, Mastery",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Protection",
+    "alias": "Ioun Stone, Protection",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Protection",
+    "alias": "Ioun Stone, Protection",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Regeneration",
+    "alias": "Ioun Stone, Regeneration",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Regeneration",
+    "alias": "Ioun Stone, Regeneration",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Reserve",
+    "alias": "Ioun Stone, Reserve",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Reserve",
+    "alias": "Ioun Stone, Reserve",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Strength",
+    "alias": "Ioun Stone, Strength",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Strength",
+    "alias": "Ioun Stone, Strength",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Sustenance",
+    "alias": "Ioun Stone, Sustenance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ioun Stone, Sustenance",
+    "alias": "Ioun Stone, Sustenance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Iron Pot",
+    "alias": "Iron Pot",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Iron Spikes (10)",
+    "alias": "Iron Spikes (10)",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ladder (10-foot)",
+    "alias": "Ladder (10-foot)",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Linen (1 sq. yd.)",
+    "alias": "Linen (1 sq. yd.)",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Loaf of Bread",
+    "alias": "Loaf of Bread",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Manual of Clay Golems",
+    "alias": "Manual of Clay Golems",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Manual of Clay Golems",
+    "alias": "Manual of Clay Golems",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Manual of Flesh Golems",
+    "alias": "Manual of Flesh Golems",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Manual of Flesh Golems",
+    "alias": "Manual of Flesh Golems",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Manual of Iron Golems",
+    "alias": "Manual of Iron Golems",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Manual of Iron Golems",
+    "alias": "Manual of Iron Golems",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Manual of Stone Golems",
+    "alias": "Manual of Stone Golems",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Manual of Stone Golems",
+    "alias": "Manual of Stone Golems",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Map or Scroll Case",
+    "alias": "Map or Scroll Case",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Merchant's Scale",
+    "alias": "Merchant's Scale",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Military Saddle",
+    "alias": "Military Saddle",
+    "category": "item",
+    "source": "XPHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Miner's Pick",
+    "alias": "Miner's Pick",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Pack Saddle",
+    "alias": "Pack Saddle",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Pole (10-foot)",
+    "alias": "Pole (10-foot)",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Acid Resistance",
+    "alias": "Potion of Acid Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Acid Resistance",
+    "alias": "Potion of Acid Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Cloud Giant Strength",
+    "alias": "Potion of Cloud Giant Strength",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Cloud Giant Strength",
+    "alias": "Potion of Cloud Giant Strength",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Cold Resistance",
+    "alias": "Potion of Cold Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Cold Resistance",
+    "alias": "Potion of Cold Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Fire Giant Strength",
+    "alias": "Potion of Fire Giant Strength",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Fire Giant Strength",
+    "alias": "Potion of Fire Giant Strength",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Fire Resistance",
+    "alias": "Potion of Fire Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Fire Resistance",
+    "alias": "Potion of Fire Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Force Resistance",
+    "alias": "Potion of Force Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Force Resistance",
+    "alias": "Potion of Force Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Frost Giant Strength",
+    "alias": "Potion of Frost Giant Strength",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Greater Healing",
+    "alias": "Potion of Greater Healing",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Greater Healing",
+    "alias": "Potion of Greater Healing",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Hill Giant Strength",
+    "alias": "Potion of Hill Giant Strength",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Hill Giant Strength",
+    "alias": "Potion of Hill Giant Strength",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Lightning Resistance",
+    "alias": "Potion of Lightning Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Lightning Resistance",
+    "alias": "Potion of Lightning Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Necrotic Resistance",
+    "alias": "Potion of Necrotic Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Necrotic Resistance",
+    "alias": "Potion of Necrotic Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Poison Resistance",
+    "alias": "Potion of Poison Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Poison Resistance",
+    "alias": "Potion of Poison Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Psychic Resistance",
+    "alias": "Potion of Psychic Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Psychic Resistance",
+    "alias": "Potion of Psychic Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Radiant Resistance",
+    "alias": "Potion of Radiant Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Radiant Resistance",
+    "alias": "Potion of Radiant Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Stone Giant Strength",
+    "alias": "Potion of Stone Giant Strength",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Storm Giant Strength",
+    "alias": "Potion of Storm Giant Strength",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Storm Giant Strength",
+    "alias": "Potion of Storm Giant Strength",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Superior Healing",
+    "alias": "Potion of Superior Healing",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Superior Healing",
+    "alias": "Potion of Superior Healing",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Supreme Healing",
+    "alias": "Potion of Supreme Healing",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Supreme Healing",
+    "alias": "Potion of Supreme Healing",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Thunder Resistance",
+    "alias": "Potion of Thunder Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Thunder Resistance",
+    "alias": "Potion of Thunder Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Quaal's Feather Token, Anchor",
+    "alias": "Feather Token, Anchor",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Quaal's Feather Token, Anchor",
+    "alias": "Feather Token, Anchor",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Quaal's Feather Token, Bird",
+    "alias": "Feather Token, Bird",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Quaal's Feather Token, Bird",
+    "alias": "Feather Token, Bird",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Quaal's Feather Token, Fan",
+    "alias": "Feather Token, Fan",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Quaal's Feather Token, Fan",
+    "alias": "Feather Token, Fan",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Quaal's Feather Token, Swan Boat",
+    "alias": "Feather Token, Swan Boat",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Quaal's Feather Token, Swan Boat",
+    "alias": "Feather Token, Swan Boat",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Quaal's Feather Token, Tree",
+    "alias": "Feather Token, Tree",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Quaal's Feather Token, Tree",
+    "alias": "Feather Token, Tree",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Quaal's Feather Token, Whip",
+    "alias": "Feather Token, Whip",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Quaal's Feather Token, Whip",
+    "alias": "Feather Token, Whip",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Red Dragon Scale Mail",
+    "alias": "Red Dragon Scale Mail",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Red Dragon Scale Mail",
+    "alias": "Red Dragon Scale Mail",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Riding Saddle",
+    "alias": "Riding Saddle",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Acid Resistance",
+    "alias": "Ring of Acid Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Acid Resistance",
+    "alias": "Ring of Acid Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Cold Resistance",
+    "alias": "Ring of Cold Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Cold Resistance",
+    "alias": "Ring of Cold Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Elemental Command (Earth)",
+    "alias": "Ring of Elemental Command (Earth)",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Elemental Command (Fire)",
+    "alias": "Ring of Elemental Command (Fire)",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Elemental Command (Water)",
+    "alias": "Ring of Elemental Command (Water)",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Fire Resistance",
+    "alias": "Ring of Fire Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Fire Resistance",
+    "alias": "Ring of Fire Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Force Resistance",
+    "alias": "Ring of Force Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Force Resistance",
+    "alias": "Ring of Force Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Lightning Resistance",
+    "alias": "Ring of Lightning Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Lightning Resistance",
+    "alias": "Ring of Lightning Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Necrotic Resistance",
+    "alias": "Ring of Necrotic Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Necrotic Resistance",
+    "alias": "Ring of Necrotic Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Poison Resistance",
+    "alias": "Ring of Poison Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Poison Resistance",
+    "alias": "Ring of Poison Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Psychic Resistance",
+    "alias": "Ring of Psychic Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Psychic Resistance",
+    "alias": "Ring of Psychic Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Radiant Resistance",
+    "alias": "Ring of Radiant Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Radiant Resistance",
+    "alias": "Ring of Radiant Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Thunder Resistance",
+    "alias": "Ring of Thunder Resistance",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Ring of Thunder Resistance",
+    "alias": "Ring of Thunder Resistance",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Silk (1 sq. yd.)",
+    "alias": "Silk (1 sq. yd.)",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Silk Rope (50 feet)",
+    "alias": "Silk Rope (50 feet)",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Silver Dragon Scale Mail",
+    "alias": "Silver Dragon Scale Mail",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Silver Dragon Scale Mail",
+    "alias": "Silver Dragon Scale Mail",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Sledgehammer",
+    "alias": "Sledgehammer",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (1st Level)",
+    "alias": "Spell Scroll (1st Level)",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (2nd Level)",
+    "alias": "Spell Scroll (2nd Level)",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (3rd Level)",
+    "alias": "Spell Scroll (3rd Level)",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (4th Level)",
+    "alias": "Spell Scroll (4th Level)",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (5th Level)",
+    "alias": "Spell Scroll (5th Level)",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (6th Level)",
+    "alias": "Spell Scroll (6th Level)",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (7th Level)",
+    "alias": "Spell Scroll (7th Level)",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (8th Level)",
+    "alias": "Spell Scroll (8th Level)",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (9th Level)",
+    "alias": "Spell Scroll (9th Level)",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (Cantrip)",
+    "alias": "Spell Scroll (Cantrip)",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (Level 2)",
+    "alias": "Spell Scroll (Level 2)",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (Level 3)",
+    "alias": "Spell Scroll (Level 3)",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (Level 4)",
+    "alias": "Spell Scroll (Level 4)",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (Level 5)",
+    "alias": "Spell Scroll (Level 5)",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (Level 6)",
+    "alias": "Spell Scroll (Level 6)",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (Level 7)",
+    "alias": "Spell Scroll (Level 7)",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (Level 8)",
+    "alias": "Spell Scroll (Level 8)",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Spell Scroll (Level 9)",
+    "alias": "Spell Scroll (Level 9)",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Stabling (per day)",
+    "alias": "Stabling (per day)",
+    "category": "item",
+    "source": "XPHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Three-Dragon Ante Set",
+    "alias": "Three-Dragon Ante Set",
+    "category": "item",
+    "source": "XPHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Traveler's Clothes",
+    "alias": "Traveler's Clothes",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Two-Person Tent",
+    "alias": "Two-Person Tent",
+    "category": "item",
+    "source": "PHB",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "White Dragon Scale Mail",
+    "alias": "White Dragon Scale Mail",
+    "category": "item",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "White Dragon Scale Mail",
+    "alias": "White Dragon Scale Mail",
+    "category": "item",
+    "source": "XDMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Potion of Healing (*)",
+    "alias": "Potion of Healing (*)",
+    "category": "itemGroup",
+    "source": "DMG",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Deep Gnome (Svirfneblin)",
+    "alias": "Deep Gnome (Svirfneblin)",
+    "category": "monster",
+    "source": "MM",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Half-Red Dragon Veteran",
+    "alias": "Half-Red Dragon Veteran",
+    "category": "monster",
+    "source": "MM",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Saber-Toothed Tiger",
+    "alias": "Saber-Toothed Tiger",
+    "category": "monster",
+    "source": "MM",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  },
+  {
+    "name": "Will-o'-Wisp",
+    "alias": "Will-o'-Wisp",
+    "category": "monster",
+    "source": "MM",
+    "reason": "Nome não localizado automaticamente no PDF SRD da edição; não incluído no pacote inicial."
+  }
+]

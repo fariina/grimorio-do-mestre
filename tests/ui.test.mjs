@@ -1,0 +1,26 @@
+import * as Content from '../public/content.mjs';
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {createApplication} from '../server.mjs';
+async function getJSDOM(){try{return (await import('jsdom')).JSDOM;}catch{return (await import('../.runtime/tools/node_modules/jsdom/lib/api.js')).JSDOM;}}
+test('DOM: formulários reais, salvamento automático e fluxo de preparação até combate',async()=>{
+ const JSDOM=await getJSDOM();const app=createApplication({dbPath:':memory:',seed:false});await new Promise(r=>app.server.listen(0,'127.0.0.1',r));const base=`http://127.0.0.1:${app.server.address().port}`;
+ const dom=new JSDOM(readFileSync('public/index.html','utf8'),{url:base,runScripts:'outside-only',pretendToBeVisual:true});const w=dom.window;
+ w.fetch=(url,opts)=>fetch(new URL(url,base),opts);w.HTMLElement.prototype.scrollIntoView=function(){};w.HTMLDialogElement.prototype.showModal=function(){this.open=true;};w.HTMLDialogElement.prototype.close=function(){this.open=false;};w.crypto.randomUUID=()=>crypto.randomUUID();
+ const errors=[];w.addEventListener('error',e=>errors.push(e.message));
+ const wait=async(fn,description)=>{const until=Date.now()+5000;while(!fn()){if(Date.now()>until)throw Error('Timeout: '+description+'; '+w.document.querySelector('#toasts')?.textContent);await new Promise(r=>setTimeout(r,20));}};
+ const select=s=>{const el=w.document.querySelector(s);assert.ok(el,'Elemento ausente: '+s);return el;};
+ const click=async s=>{select(s).click();await new Promise(r=>setTimeout(r,25));};
+ const set=(name,value)=>{const el=select(`#modal [name="${name}"]`);el.value=value;el.dispatchEvent(new w.Event('input',{bubbles:true}));};
+ const submit=async s=>{select(s).dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));await new Promise(r=>setTimeout(r,35));};
+ try{
+ w.Content=Content;w.eval(readFileSync('public/integration.js','utf8').replace('export function installIntegration','window.installIntegration = function installIntegration'));w.eval(readFileSync('public/app.js','utf8').replace(/^import .*;$/gm,''));await wait(()=>w.document.querySelector('[data-action=new-campaign]'),'inicialização');
+ await click('[data-action=new-campaign]');set('name','Campanha do teste DOM');await submit('#campaignForm');await wait(()=>app.store.campaigns().length===1,'criação da campanha');await wait(()=>!select('#modal').open,'fechamento da campanha');
+ await click('[data-action=new-entity][data-kind=scene]');set('name','Cena DOM');set('narration','Texto narrável de teste');set('secret','Segredo de teste');await submit('#entityForm');await wait(()=>app.store.entities(app.store.campaigns()[0].id).some(x=>x.kind==='scene'),'cena salva');set('summary','Edição automática de teste');await wait(()=>app.store.entities(app.store.campaigns()[0].id).some(x=>x.data.summary==='Edição automática de teste'),'salvamento automático');await click('[data-action=close-modal]');
+ await click('[data-action=navigate][data-view=scenes]');await click('[data-action=new-scene-check]');set('name','Teste DOM');set('dc','12');await submit('#entityForm');await wait(()=>app.store.entities(app.store.campaigns()[0].id).some(x=>x.kind==='check'),'teste preparado');await click('[data-action=close-modal]');
+ await click('[data-action=navigate][data-view=encounters]');await click('[data-action=new-entity][data-kind=encounter]');set('name','Encontro DOM');set('objectives','Proteger o portão');await submit('#entityForm');await wait(()=>app.store.entities(app.store.campaigns()[0].id).some(x=>x.kind==='encounter'),'encontro salvo');await click('[data-action=close-modal]');await click('[data-action=build-encounter]');set('name','Criatura DOM');set('maxHp','8');await submit('#customMonsterForm');await wait(()=>app.store.entities(app.store.campaigns()[0].id).find(x=>x.kind==='encounter')?.data.monsters?.length===1,'criatura adicionada');await click('[data-action=close-modal]');await click('[data-action=start-combat]');await wait(()=>w.document.querySelector('[data-action=participant-hp]'),'combate na mesa');select('[data-damage-input]').value='1';await click('[data-action=participant-hp]');await wait(()=>app.store.entities(app.store.campaigns()[0].id).find(x=>x.kind==='combat').data.participants[0].hp===7,'dano persistido');await click('[data-action=undo-owner]');await wait(()=>app.store.entities(app.store.campaigns()[0].id).find(x=>x.kind==='combat').data.participants[0].hp===8,'desfazer dano');
+ await click('[data-action=navigate][data-view=treasure]');const form=select('#customTreasureForm');form.querySelector('[name=name]').value='Recompensa DOM';form.querySelector('[name=po]').value='2';await submit('#customTreasureForm');await wait(()=>w.document.querySelector('#saveTreasureForm'),'resultado de tesouro');await submit('#saveTreasureForm');await wait(()=>app.store.entities(app.store.campaigns()[0].id).some(x=>x.kind==='reward'),'recompensa salva');
+ assert.deepEqual(errors,[]);assert.equal(w.document.querySelectorAll('.toast.error').length,0,w.document.querySelector('#toasts').textContent);
+ }finally{dom.window.close();await new Promise(r=>app.server.close(r));app.store.close();}
+});

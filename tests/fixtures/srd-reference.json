@@ -1,0 +1,672 @@
+{
+  "format": "grimorio-reference",
+  "version": 1,
+  "notice": "Fixtures reais do SRD 5.1, CC-BY-4.0; complementos de outros livros removidos. Atribuição em docs/FONTES.md.",
+  "records": [
+    {
+      "category": "monster",
+      "edition": "2014",
+      "source": "MM",
+      "name": "Adult Red Dragon",
+      "raw": {
+        "name": "Adult Red Dragon",
+        "group": [
+          "Chromatic Dragon"
+        ],
+        "source": "MM",
+        "page": 98,
+        "srd": true,
+        "basicRules": true,
+        "size": [
+          "H"
+        ],
+        "type": "dragon",
+        "alignment": [
+          "C",
+          "E"
+        ],
+        "ac": [
+          {
+            "ac": 19,
+            "from": [
+              "natural armor"
+            ]
+          }
+        ],
+        "hp": {
+          "average": 256,
+          "formula": "19d12 + 133"
+        },
+        "speed": {
+          "walk": 40,
+          "climb": 40,
+          "fly": 80
+        },
+        "str": 27,
+        "dex": 10,
+        "con": 25,
+        "int": 16,
+        "wis": 13,
+        "cha": 21,
+        "save": {
+          "dex": "+6",
+          "con": "+13",
+          "wis": "+7",
+          "cha": "+11"
+        },
+        "skill": {
+          "perception": "+13",
+          "stealth": "+6"
+        },
+        "senses": [
+          "blindsight 60 ft.",
+          "darkvision 120 ft."
+        ],
+        "passive": 23,
+        "immune": [
+          "fire"
+        ],
+        "languages": [
+          "Common",
+          "Draconic"
+        ],
+        "cr": "17",
+        "trait": [
+          {
+            "name": "Legendary Resistance (3/Day)",
+            "entries": [
+              "If the dragon fails a saving throw, it can choose to succeed instead."
+            ]
+          }
+        ],
+        "action": [
+          {
+            "name": "Multiattack",
+            "entries": [
+              "The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+            ]
+          },
+          {
+            "name": "Bite",
+            "entries": [
+              "{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage plus 7 ({@damage 2d6}) fire damage."
+            ]
+          },
+          {
+            "name": "Claw",
+            "entries": [
+              "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage."
+            ]
+          },
+          {
+            "name": "Tail",
+            "entries": [
+              "{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+            ]
+          },
+          {
+            "name": "Frightful Presence",
+            "entries": [
+              "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 19} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+            ]
+          },
+          {
+            "name": "Fire Breath {@recharge 5}",
+            "entries": [
+              "The dragon exhales fire in a 60-foot cone. Each creature in that area must make a {@dc 21} Dexterity saving throw, taking 63 ({@damage 18d6}) fire damage on a failed save, or half as much damage on a successful one."
+            ]
+          }
+        ],
+        "legendary": [
+          {
+            "name": "Detect",
+            "entries": [
+              "The dragon makes a Wisdom ({@skill Perception}) check."
+            ]
+          },
+          {
+            "name": "Tail Attack",
+            "entries": [
+              "The dragon makes a tail attack."
+            ]
+          },
+          {
+            "name": "Wing Attack (Costs 2 Actions)",
+            "entries": [
+              "The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a {@dc 22} Dexterity saving throw or take 15 ({@damage 2d6 + 8}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+            ]
+          }
+        ],
+        "legendaryGroup": {
+          "name": "Red Dragon",
+          "source": "MM"
+        },
+        "environment": [
+          "mountain",
+          "hill"
+        ],
+        "dragonCastingColor": "red",
+        "dragonAge": "adult",
+        "traitTags": [
+          "Legendary Resistances"
+        ],
+        "senseTags": [
+          "B",
+          "SD"
+        ],
+        "actionTags": [
+          "Breath Weapon",
+          "Frightful Presence",
+          "Multiattack"
+        ],
+        "languageTags": [
+          "C",
+          "DR"
+        ],
+        "damageTags": [
+          "B",
+          "F",
+          "P",
+          "S"
+        ],
+        "damageTagsLegendary": [
+          "F"
+        ],
+        "miscTags": [
+          "AOE",
+          "MW",
+          "RCH"
+        ],
+        "conditionInflict": [
+          "frightened",
+          "prone"
+        ],
+        "conditionInflictLegendary": [
+          "incapacitated",
+          "poisoned",
+          "prone"
+        ],
+        "savingThrowForced": [
+          "dexterity",
+          "wisdom"
+        ],
+        "savingThrowForcedLegendary": [
+          "constitution",
+          "dexterity"
+        ]
+      },
+      "license": "CC-BY-4.0",
+      "srdVersion": "5.1",
+      "origin": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-src/8790755429c346d20020eed7826d312d484c393f/data/bestiary/bestiary-mm.json",
+      "importVersion": "8790755429c346d20020eed7826d312d484c393f",
+      "id": "ee6904da80b53a0a928bf4a55bf84b34"
+    },
+    {
+      "category": "monster",
+      "edition": "2014",
+      "source": "MM",
+      "name": "Archmage",
+      "raw": {
+        "name": "Archmage",
+        "source": "MM",
+        "page": 342,
+        "srd": true,
+        "size": [
+          "M"
+        ],
+        "type": {
+          "type": "humanoid",
+          "tags": [
+            "any race"
+          ]
+        },
+        "alignment": [
+          "A"
+        ],
+        "ac": [
+          12,
+          {
+            "ac": 15,
+            "condition": "with {@spell mage armor}",
+            "braces": true
+          }
+        ],
+        "hp": {
+          "average": 99,
+          "formula": "18d8 + 18"
+        },
+        "speed": {
+          "walk": 30
+        },
+        "str": 10,
+        "dex": 14,
+        "con": 12,
+        "int": 20,
+        "wis": 15,
+        "cha": 16,
+        "save": {
+          "int": "+9",
+          "wis": "+6"
+        },
+        "skill": {
+          "arcana": "+13",
+          "history": "+13"
+        },
+        "passive": 12,
+        "resist": [
+          {
+            "special": "damage from spells"
+          },
+          {
+            "resist": [
+              "bludgeoning",
+              "piercing",
+              "slashing"
+            ],
+            "note": "(from stoneskin)",
+            "cond": true,
+            "preNote": "nonmagical"
+          }
+        ],
+        "languages": [
+          "any six languages"
+        ],
+        "cr": "12",
+        "spellcasting": [
+          {
+            "name": "Spellcasting",
+            "type": "spellcasting",
+            "headerEntries": [
+              "The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The archmage can cast {@spell disguise self} and {@spell invisibility} at will and has the following wizard spells prepared:"
+            ],
+            "will": [
+              "{@spell disguise self}",
+              "{@spell invisibility}"
+            ],
+            "spells": {
+              "0": {
+                "spells": [
+                  "{@spell fire bolt}",
+                  "{@spell light}",
+                  "{@spell mage hand}",
+                  "{@spell prestidigitation}",
+                  "{@spell shocking grasp}"
+                ]
+              },
+              "1": {
+                "slots": 4,
+                "spells": [
+                  "{@spell detect magic}",
+                  "{@spell identify}",
+                  "{@spell mage armor}*",
+                  "{@spell magic missile}"
+                ]
+              },
+              "2": {
+                "slots": 3,
+                "spells": [
+                  "{@spell detect thoughts}",
+                  "{@spell mirror image}",
+                  "{@spell misty step}"
+                ]
+              },
+              "3": {
+                "slots": 3,
+                "spells": [
+                  "{@spell counterspell}",
+                  "{@spell fly}",
+                  "{@spell lightning bolt}"
+                ]
+              },
+              "4": {
+                "slots": 3,
+                "spells": [
+                  "{@spell banishment}",
+                  "{@spell fire shield}",
+                  "{@spell stoneskin}*"
+                ]
+              },
+              "5": {
+                "slots": 3,
+                "spells": [
+                  "{@spell cone of cold}",
+                  "{@spell scrying}",
+                  "{@spell wall of force}"
+                ]
+              },
+              "6": {
+                "slots": 1,
+                "spells": [
+                  "{@spell globe of invulnerability}"
+                ]
+              },
+              "7": {
+                "slots": 1,
+                "spells": [
+                  "{@spell teleport}"
+                ]
+              },
+              "8": {
+                "slots": 1,
+                "spells": [
+                  "{@spell mind blank}*"
+                ]
+              },
+              "9": {
+                "slots": 1,
+                "spells": [
+                  "{@spell time stop}"
+                ]
+              }
+            },
+            "footerEntries": [
+              "*The archmage casts these spells on itself before combat."
+            ],
+            "ability": "int",
+            "hidden": [
+              "will"
+            ]
+          }
+        ],
+        "trait": [
+          {
+            "name": "Magic Resistance",
+            "entries": [
+              "The archmage has advantage on saving throws against spells and other magical effects."
+            ]
+          }
+        ],
+        "action": [
+          {
+            "name": "Dagger",
+            "entries": [
+              "{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+            ]
+          }
+        ],
+        "environment": [
+          "urban"
+        ],
+        "attachedItems": [
+          "dagger|phb"
+        ],
+        "traitTags": [
+          "Magic Resistance"
+        ],
+        "languageTags": [
+          "X"
+        ],
+        "damageTags": [
+          "P"
+        ],
+        "damageTagsSpell": [
+          "C",
+          "F",
+          "L",
+          "O"
+        ],
+        "spellcastingTags": [
+          "CW"
+        ],
+        "miscTags": [
+          "MLW",
+          "MW",
+          "RW",
+          "THW"
+        ],
+        "savingThrowForcedSpell": [
+          "charisma",
+          "constitution",
+          "dexterity",
+          "wisdom"
+        ],
+        "_versions": [
+          {
+            "name": "Archmage (Familiar)",
+            "source": "MM",
+            "_mod": {
+              "_": {
+                "mode": "addSpells",
+                "spells": {
+                  "1": {
+                    "spells": [
+                      "{@spell find familiar} (one of the creatures described in the spell or some other Tiny monster, such as a {@creature crawling claw}, {@creature imp}, {@creature pseudodragon}, or {@creature quasit})"
+                    ]
+                  }
+                }
+              }
+            },
+            "variant": null
+          }
+        ]
+      },
+      "license": "CC-BY-4.0",
+      "srdVersion": "5.1",
+      "origin": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-src/8790755429c346d20020eed7826d312d484c393f/data/bestiary/bestiary-mm.json",
+      "importVersion": "8790755429c346d20020eed7826d312d484c393f",
+      "id": "72e0960b57582d461882d174d530a9cf"
+    },
+    {
+      "category": "monster",
+      "edition": "2014",
+      "source": "MM",
+      "name": "Goblin",
+      "raw": {
+        "name": "Goblin",
+        "source": "MM",
+        "page": 166,
+        "srd": true,
+        "basicRules": true,
+        "size": [
+          "S"
+        ],
+        "type": {
+          "type": "humanoid",
+          "tags": [
+            "goblinoid"
+          ]
+        },
+        "alignment": [
+          "N",
+          "E"
+        ],
+        "ac": [
+          {
+            "ac": 15,
+            "from": [
+              "{@item leather armor|phb}",
+              "{@item shield|phb}"
+            ]
+          }
+        ],
+        "hp": {
+          "average": 7,
+          "formula": "2d6"
+        },
+        "speed": {
+          "walk": 30
+        },
+        "str": 8,
+        "dex": 14,
+        "con": 10,
+        "int": 10,
+        "wis": 8,
+        "cha": 8,
+        "skill": {
+          "stealth": "+6"
+        },
+        "senses": [
+          "darkvision 60 ft."
+        ],
+        "passive": 9,
+        "languages": [
+          "Common",
+          "Goblin"
+        ],
+        "cr": "1/4",
+        "trait": [
+          {
+            "name": "Nimble Escape",
+            "entries": [
+              "The goblin can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+            ]
+          }
+        ],
+        "action": [
+          {
+            "name": "Scimitar",
+            "entries": [
+              "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+            ]
+          },
+          {
+            "name": "Shortbow",
+            "entries": [
+              "{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+            ]
+          }
+        ],
+        "environment": [
+          "underdark",
+          "grassland",
+          "forest",
+          "hill"
+        ],
+        "altArt": [
+          {
+            "name": "Goblin",
+            "source": "RMBRE"
+          }
+        ],
+        "attachedItems": [
+          "scimitar|phb",
+          "shortbow|phb"
+        ],
+        "senseTags": [
+          "D"
+        ],
+        "languageTags": [
+          "C",
+          "GO"
+        ],
+        "damageTags": [
+          "P",
+          "S"
+        ],
+        "miscTags": [
+          "MLW",
+          "MW",
+          "RNG",
+          "RW"
+        ]
+      },
+      "license": "CC-BY-4.0",
+      "srdVersion": "5.1",
+      "origin": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-src/8790755429c346d20020eed7826d312d484c393f/data/bestiary/bestiary-mm.json",
+      "importVersion": "8790755429c346d20020eed7826d312d484c393f",
+      "id": "353677ad80ff69a3a3747e3414d3460a"
+    },
+    {
+      "category": "monster",
+      "edition": "2014",
+      "source": "MM",
+      "name": "Swarm of Rats",
+      "raw": {
+        "name": "Swarm of Rats",
+        "source": "MM",
+        "page": 339,
+        "srd": true,
+        "basicRules": true,
+        "size": [
+          "M"
+        ],
+        "type": {
+          "type": "beast",
+          "swarmSize": "T"
+        },
+        "alignment": [
+          "U"
+        ],
+        "ac": [
+          10
+        ],
+        "hp": {
+          "average": 24,
+          "formula": "7d8 - 7"
+        },
+        "speed": {
+          "walk": 30
+        },
+        "str": 9,
+        "dex": 11,
+        "con": 9,
+        "int": 2,
+        "wis": 10,
+        "cha": 3,
+        "senses": [
+          "darkvision 30 ft."
+        ],
+        "passive": 10,
+        "resist": [
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "conditionImmune": [
+          "charmed",
+          "frightened",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "prone",
+          "restrained",
+          "stunned"
+        ],
+        "cr": "1/4",
+        "trait": [
+          {
+            "name": "Keen Smell",
+            "entries": [
+              "The swarm has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+            ]
+          },
+          {
+            "name": "Swarm",
+            "entries": [
+              "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain hit points or gain temporary hit points."
+            ]
+          }
+        ],
+        "action": [
+          {
+            "name": "Bites",
+            "entries": [
+              "{@atk mw} {@hit 2} to hit, reach 0 ft., one target in the swarm's space. {@h}7 ({@damage 2d6}) piercing damage, or 3 ({@damage 1d6}) piercing damage if the swarm has half of its hit points or fewer."
+            ]
+          }
+        ],
+        "environment": [
+          "swamp",
+          "urban"
+        ],
+        "traitTags": [
+          "Keen Senses"
+        ],
+        "senseTags": [
+          "D"
+        ],
+        "damageTags": [
+          "P"
+        ],
+        "miscTags": [
+          "MW"
+        ]
+      },
+      "license": "CC-BY-4.0",
+      "srdVersion": "5.1",
+      "origin": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-src/8790755429c346d20020eed7826d312d484c393f/data/bestiary/bestiary-mm.json",
+      "importVersion": "8790755429c346d20020eed7826d312d484c393f",
+      "id": "287639b9b513caae3287d4dab7abcd99"
+    }
+  ]
+}

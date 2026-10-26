@@ -1,0 +1,4229 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-26T12:32:09.320Z",
+  "repository": "5etools-mirror-3/5etools-src",
+  "commit": "8790755429c346d20020eed7826d312d484c393f",
+  "files": [
+    {
+      "path": "data/actions.json",
+      "size": 45532,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure",
+      "size": 0,
+      "type": "tree"
+    },
+    {
+      "path": "data/adventure/adventure-aitfr-avt.json",
+      "size": 43664,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-aitfr-dn.json",
+      "size": 59919,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-aitfr-fcd.json",
+      "size": 53367,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-aitfr-isf.json",
+      "size": 64465,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-aitfr-thp.json",
+      "size": 61955,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-aud.json",
+      "size": 809959,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-azfyt.json",
+      "size": 52892,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-bgdia.json",
+      "size": 1362814,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-bqdd.json",
+      "size": 64396,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-bqgt.json",
+      "size": 67801,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-cm.json",
+      "size": 1434260,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-coa.json",
+      "size": 1052876,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-cos.json",
+      "size": 1946877,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-crcotn.json",
+      "size": 1166327,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-dc.json",
+      "size": 322446,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-dd.json",
+      "size": 201522,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-dip.json",
+      "size": 763798,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-ditlcot.json",
+      "size": 194952,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-dosi.json",
+      "size": 311178,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-drde-acfas.json",
+      "size": 150903,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-drde-bd.json",
+      "size": 114734,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-drde-bts.json",
+      "size": 118163,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-drde-das.json",
+      "size": 119447,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-drde-dotsc.json",
+      "size": 160171,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-drde-fwtvc.json",
+      "size": 115600,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-drde-sd.json",
+      "size": 149102,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-drde-tdon.json",
+      "size": 166403,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-drde-tfv.json",
+      "size": 188057,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-drde-twoo.json",
+      "size": 107416,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-dsotdq.json",
+      "size": 1193654,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-efr.json",
+      "size": 105737,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-ffotr.json",
+      "size": 38673,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-fraif-tllol.json",
+      "size": 117802,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-fs.json",
+      "size": 145045,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-gos.json",
+      "size": 1573020,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-gotsf.json",
+      "size": 87169,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-hbtd.json",
+      "size": 47500,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-hfstcm.json",
+      "size": 63925,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-hftt.json",
+      "size": 94316,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-hol.json",
+      "size": 181896,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-hotb.json",
+      "size": 573564,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-hotdq.json",
+      "size": 781576,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-idrotf.json",
+      "size": 2369673,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-imr.json",
+      "size": 402035,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-jttrc.json",
+      "size": 1455345,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-kftgv.json",
+      "size": 1238471,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-kkw.json",
+      "size": 63930,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-lk.json",
+      "size": 54014,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-llk.json",
+      "size": 294530,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-lmop.json",
+      "size": 379257,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-lox.json",
+      "size": 367010,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-lr.json",
+      "size": 146530,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-lrdt.json",
+      "size": 82787,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-mot-nss.json",
+      "size": 104532,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-nrh-ass.json",
+      "size": 30915,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-nrh-at.json",
+      "size": 52015,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-nrh-avitw.json",
+      "size": 41716,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-nrh-awol.json",
+      "size": 26293,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-nrh-coi.json",
+      "size": 42194,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-nrh-tcmc.json",
+      "size": 52509,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-nrh-tlt.json",
+      "size": 36915,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-oota.json",
+      "size": 1856644,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-oow.json",
+      "size": 814219,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-pabtso.json",
+      "size": 1594663,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-pip.json",
+      "size": 83528,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-pota.json",
+      "size": 2042195,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-qftis.json",
+      "size": 1633078,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-rmbre.json",
+      "size": 269169,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-rot.json",
+      "size": 723507,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-rtg.json",
+      "size": 278987,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-rwg.json",
+      "size": 102779,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-scc-arir.json",
+      "size": 216874,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-scc-ck.json",
+      "size": 259506,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-scc-hfmt.json",
+      "size": 163757,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-scc-tmm.json",
+      "size": 195753,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-scoee.json",
+      "size": 81630,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-sdw.json",
+      "size": 403927,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-sja.json",
+      "size": 240043,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-skt.json",
+      "size": 2099653,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-slw.json",
+      "size": 291974,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-sos.json",
+      "size": 106465,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-tftyp-atg.json",
+      "size": 964410,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-tftyp-dit.json",
+      "size": 1006192,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-tftyp-tfof.json",
+      "size": 430104,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-tftyp-thsot.json",
+      "size": 321816,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-tftyp-toh.json",
+      "size": 204456,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-tftyp-tsc.json",
+      "size": 338756,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-tftyp-wpm.json",
+      "size": 185586,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-tlk.json",
+      "size": 32633,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-toa.json",
+      "size": 1993279,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-tofw.json",
+      "size": 607404,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-tor.json",
+      "size": 91259,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-ttp.json",
+      "size": 152341,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-us.json",
+      "size": 109840,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-uthftlh.json",
+      "size": 86249,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-veor.json",
+      "size": 1463641,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-vnotee.json",
+      "size": 83253,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-wbtw.json",
+      "size": 1315497,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-wdh.json",
+      "size": 1503983,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-wdmm.json",
+      "size": 2767768,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-wtthc.json",
+      "size": 334224,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventure/adventure-xmts.json",
+      "size": 57219,
+      "type": "blob"
+    },
+    {
+      "path": "data/adventures.json",
+      "size": 762335,
+      "type": "blob"
+    },
+    {
+      "path": "data/backgrounds.json",
+      "size": 733029,
+      "type": "blob"
+    },
+    {
+      "path": "data/bastions.json",
+      "size": 132334,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary",
+      "size": 0,
+      "type": "tree"
+    },
+    {
+      "path": "data/bestiary/bestiary-aatm.json",
+      "size": 12284,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-abh.json",
+      "size": 21838,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-ai.json",
+      "size": 69304,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-aitfr-dn.json",
+      "size": 11587,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-aitfr-fcd.json",
+      "size": 7830,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-aitfr-isf.json",
+      "size": 5962,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-aitfr-thp.json",
+      "size": 11029,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-au.json",
+      "size": 81771,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-aud.json",
+      "size": 24174,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-awm.json",
+      "size": 17817,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-bam.json",
+      "size": 188074,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-bgdia.json",
+      "size": 98636,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-bgg.json",
+      "size": 230103,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-bmt.json",
+      "size": 143317,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-cm.json",
+      "size": 110841,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-coa.json",
+      "size": 222669,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-cos.json",
+      "size": 107737,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-crcotn.json",
+      "size": 142908,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-dc.json",
+      "size": 17344,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-dip.json",
+      "size": 11578,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-ditlcot.json",
+      "size": 3651,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-dmg.json",
+      "size": 3318,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-dod.json",
+      "size": 4526,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-dosi.json",
+      "size": 13060,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-drde-bd.json",
+      "size": 410,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-dsotdq.json",
+      "size": 215160,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-efa.json",
+      "size": 66265,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-egw.json",
+      "size": 94003,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-erlw.json",
+      "size": 130570,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-esk.json",
+      "size": 6984,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-fraif.json",
+      "size": 137009,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-ftd.json",
+      "size": 527813,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-ggr.json",
+      "size": 229190,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-gos.json",
+      "size": 122554,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-gotsf.json",
+      "size": 796,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-hat-tg.json",
+      "size": 24249,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-hftt.json",
+      "size": 6949,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-hol.json",
+      "size": 6952,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-hotb.json",
+      "size": 18962,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-hotdq.json",
+      "size": 51782,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-idrotf.json",
+      "size": 162195,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-imr.json",
+      "size": 50099,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-jttrc.json",
+      "size": 61135,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-kftgv.json",
+      "size": 53256,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-kkw.json",
+      "size": 5775,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-lfl.json",
+      "size": 18252,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-llk.json",
+      "size": 23605,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-lmop.json",
+      "size": 14043,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-lox.json",
+      "size": 8311,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-lr.json",
+      "size": 24432,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-lrdt.json",
+      "size": 4775,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-mabjov.json",
+      "size": 224678,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-mcv1sc.json",
+      "size": 31859,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-mcv2dc.json",
+      "size": 40016,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-mcv3mc.json",
+      "size": 13826,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-mcv4ec.json",
+      "size": 77103,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-mff.json",
+      "size": 43032,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-mgelft.json",
+      "size": 13288,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-mismv1.json",
+      "size": 21305,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-mm.json",
+      "size": 1573606,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-mot.json",
+      "size": 144728,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-mpmm.json",
+      "size": 895458,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-mpp.json",
+      "size": 173194,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-mtf.json",
+      "size": 534423,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-nf.json",
+      "size": 17619,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-nrh-ass.json",
+      "size": 1384,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-nrh-at.json",
+      "size": 8139,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-nrh-avitw.json",
+      "size": 2852,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-nrh-awol.json",
+      "size": 575,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-nrh-coi.json",
+      "size": 3908,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-nrh-tcmc.json",
+      "size": 2151,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-nrh-tlt.json",
+      "size": 127,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-oota.json",
+      "size": 128101,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-oow.json",
+      "size": 11950,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-pabtso.json",
+      "size": 101912,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-phb.json",
+      "size": 7402,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-pl.json",
+      "size": 34498,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-pota.json",
+      "size": 131377,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-ps-a.json",
+      "size": 14657,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-ps-d.json",
+      "size": 6399,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-ps-i.json",
+      "size": 49447,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-ps-k.json",
+      "size": 16034,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-ps-x.json",
+      "size": 40748,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-ps-z.json",
+      "size": 23779,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-qftis.json",
+      "size": 115276,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-rhw.json",
+      "size": 250598,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-rmbre.json",
+      "size": 8808,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-rot.json",
+      "size": 39642,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-rtg.json",
+      "size": 8619,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-rwg.json",
+      "size": 1389,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-sads.json",
+      "size": 10147,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-scc.json",
+      "size": 141996,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-sdw.json",
+      "size": 20227,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-skt.json",
+      "size": 170846,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-slw.json",
+      "size": 15856,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-tce.json",
+      "size": 59339,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-tftyp.json",
+      "size": 156087,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-toa.json",
+      "size": 147599,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-tofw.json",
+      "size": 10721,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-ttp.json",
+      "size": 9729,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-vd.json",
+      "size": 7279,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-veor.json",
+      "size": 143992,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-vgm.json",
+      "size": 483382,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-vrgr.json",
+      "size": 125466,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-wbtw.json",
+      "size": 127521,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-wdh.json",
+      "size": 173558,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-wdmm.json",
+      "size": 140003,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-wtthc.json",
+      "size": 28042,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-xdmg.json",
+      "size": 2395,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-xge.json",
+      "size": 2950,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-xmm.json",
+      "size": 1279594,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/bestiary-xphb.json",
+      "size": 57897,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-aatm.json",
+      "size": 5620,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-abh.json",
+      "size": 7688,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-ai.json",
+      "size": 37348,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-aitfr-dn.json",
+      "size": 6234,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-aitfr-fcd.json",
+      "size": 4640,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-aitfr-isf.json",
+      "size": 1241,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-aitfr-thp.json",
+      "size": 4117,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-au.json",
+      "size": 27167,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-aud.json",
+      "size": 9660,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-awm.json",
+      "size": 7909,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-bam.json",
+      "size": 81574,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-bgdia.json",
+      "size": 44000,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-bgg.json",
+      "size": 96292,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-bmt.json",
+      "size": 47513,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-cm.json",
+      "size": 31816,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-coa.json",
+      "size": 78995,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-cos.json",
+      "size": 72526,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-crcotn.json",
+      "size": 85699,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-dc.json",
+      "size": 590,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-dip.json",
+      "size": 3491,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-ditlcot.json",
+      "size": 1304,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-dmg.json",
+      "size": 638,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-dod.json",
+      "size": 1928,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-dosi.json",
+      "size": 4206,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-dsotdq.json",
+      "size": 42530,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-efa.json",
+      "size": 16216,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-egw.json",
+      "size": 33703,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-erlw.json",
+      "size": 89721,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-fraif.json",
+      "size": 53114,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-ftd.json",
+      "size": 294922,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-ggr.json",
+      "size": 98026,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-gos.json",
+      "size": 37534,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-hat-tg.json",
+      "size": 6610,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-hftt.json",
+      "size": 1716,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-hotb.json",
+      "size": 7297,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-hotdq.json",
+      "size": 5330,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-idrotf.json",
+      "size": 95420,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-imr.json",
+      "size": 7362,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-jttrc.json",
+      "size": 30387,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-kftgv.json",
+      "size": 17287,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-kkw.json",
+      "size": 502,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-lfl.json",
+      "size": 9454,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-llk.json",
+      "size": 1750,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-lmop.json",
+      "size": 4210,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-lox.json",
+      "size": 4432,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-lr.json",
+      "size": 585,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-lrdt.json",
+      "size": 533,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-mabjov.json",
+      "size": 160027,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-mcv1sc.json",
+      "size": 17279,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-mcv2dc.json",
+      "size": 14931,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-mcv3mc.json",
+      "size": 7141,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-mcv4ec.json",
+      "size": 39818,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-mff.json",
+      "size": 52581,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-mgelft.json",
+      "size": 4861,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-mismv1.json",
+      "size": 6530,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-mm.json",
+      "size": 796975,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-mot.json",
+      "size": 94485,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-mpmm.json",
+      "size": 379015,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-mpp.json",
+      "size": 63336,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-mtf.json",
+      "size": 296659,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-nf.json",
+      "size": 4309,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-oota.json",
+      "size": 25255,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-oow.json",
+      "size": 3393,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-pabtso.json",
+      "size": 33463,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-pl.json",
+      "size": 9543,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-pota.json",
+      "size": 48441,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-ps-a.json",
+      "size": 23132,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-ps-d.json",
+      "size": 6576,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-ps-i.json",
+      "size": 30877,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-ps-k.json",
+      "size": 24793,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-ps-x.json",
+      "size": 31361,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-ps-z.json",
+      "size": 33698,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-qftis.json",
+      "size": 44112,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-rhw.json",
+      "size": 82671,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-rmbre.json",
+      "size": 5670,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-rot.json",
+      "size": 3662,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-sads.json",
+      "size": 7651,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-scc.json",
+      "size": 51800,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-sdw.json",
+      "size": 1690,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-skt.json",
+      "size": 128617,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-tce.json",
+      "size": 1292,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-tftyp.json",
+      "size": 61841,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-toa.json",
+      "size": 66806,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-tofw.json",
+      "size": 4523,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-ttp.json",
+      "size": 5477,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-vd.json",
+      "size": 5288,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-veor.json",
+      "size": 48141,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-vgm.json",
+      "size": 349578,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-vrgr.json",
+      "size": 82213,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-wbtw.json",
+      "size": 43455,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-wdh.json",
+      "size": 83332,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-wdmm.json",
+      "size": 29982,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-wtthc.json",
+      "size": 17717,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-xmm.json",
+      "size": 739062,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-bestiary-xphb.json",
+      "size": 4115,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/fluff-index.json",
+      "size": 3512,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/foundry.json",
+      "size": 8436,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/index.json",
+      "size": 3511,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/legendarygroups.json",
+      "size": 394308,
+      "type": "blob"
+    },
+    {
+      "path": "data/bestiary/template.json",
+      "size": 79060,
+      "type": "blob"
+    },
+    {
+      "path": "data/book",
+      "size": 0,
+      "type": "tree"
+    },
+    {
+      "path": "data/book/book-aag.json",
+      "size": 103922,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-aatm.json",
+      "size": 104296,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-abh.json",
+      "size": 83038,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-ai.json",
+      "size": 457643,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-al.json",
+      "size": 29421,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-au.json",
+      "size": 519012,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-awm.json",
+      "size": 55639,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-bam.json",
+      "size": 73154,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-bgg.json",
+      "size": 534934,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-bmt.json",
+      "size": 932788,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-cabomp.json",
+      "size": 52834,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-dmg.json",
+      "size": 1379904,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-dmtcrg.json",
+      "size": 253113,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-dod.json",
+      "size": 104345,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-efa.json",
+      "size": 306092,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-egw.json",
+      "size": 1145129,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-erlw.json",
+      "size": 1382091,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-fraif.json",
+      "size": 1418628,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-frhof.json",
+      "size": 558841,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-ftd.json",
+      "size": 809708,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-ggr.json",
+      "size": 730429,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-hat-tg.json",
+      "size": 8774,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-hf.json",
+      "size": 195038,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-hffotm.json",
+      "size": 241834,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-hflott.json",
+      "size": 207879,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-lfl.json",
+      "size": 104961,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-mabjov.json",
+      "size": 275034,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-mcv1sc.json",
+      "size": 5694,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-mcv4ec.json",
+      "size": 15044,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-mgelft.json",
+      "size": 54754,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-mm.json",
+      "size": 231812,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-mot.json",
+      "size": 693386,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-mpmm.json",
+      "size": 144014,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-mpp.json",
+      "size": 110081,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-mtf.json",
+      "size": 661351,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-nf.json",
+      "size": 166454,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-oga.json",
+      "size": 9461,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-paf.json",
+      "size": 149697,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-phb.json",
+      "size": 637198,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-pl.json",
+      "size": 253200,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-ps-a.json",
+      "size": 50616,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-ps-d.json",
+      "size": 100654,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-ps-i.json",
+      "size": 85353,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-ps-k.json",
+      "size": 56730,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-ps-x.json",
+      "size": 117119,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-ps-z.json",
+      "size": 42271,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-rhw.json",
+      "size": 1067013,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-rmr.json",
+      "size": 302375,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-sac.json",
+      "size": 213046,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-sato.json",
+      "size": 435901,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-scag.json",
+      "size": 777914,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-scc.json",
+      "size": 268347,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-screen.json",
+      "size": 13560,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-screendungeonkit.json",
+      "size": 52232,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-screenspelljammer.json",
+      "size": 32082,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-screenwildernesskit.json",
+      "size": 23470,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-tce.json",
+      "size": 487109,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-td.json",
+      "size": 69675,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-vgm.json",
+      "size": 636380,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-vrgr.json",
+      "size": 1041893,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-xdmg.json",
+      "size": 1508516,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-xge.json",
+      "size": 351541,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-xmm.json",
+      "size": 466117,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-xphb.json",
+      "size": 630396,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-xsac.json",
+      "size": 113318,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-xscreen.json",
+      "size": 26893,
+      "type": "blob"
+    },
+    {
+      "path": "data/book/book-xscreenrhw.json",
+      "size": 32730,
+      "type": "blob"
+    },
+    {
+      "path": "data/books.json",
+      "size": 297029,
+      "type": "blob"
+    },
+    {
+      "path": "data/changelog.json",
+      "size": 340793,
+      "type": "blob"
+    },
+    {
+      "path": "data/charcreationoptions.json",
+      "size": 70120,
+      "type": "blob"
+    },
+    {
+      "path": "data/class",
+      "size": 0,
+      "type": "tree"
+    },
+    {
+      "path": "data/class/class-artificer.json",
+      "size": 165730,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/class-barbarian.json",
+      "size": 121637,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/class-bard.json",
+      "size": 138377,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/class-cleric.json",
+      "size": 259254,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/class-druid.json",
+      "size": 144442,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/class-fighter.json",
+      "size": 168561,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/class-monk.json",
+      "size": 151421,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/class-mystic.json",
+      "size": 52264,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/class-paladin.json",
+      "size": 164577,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/class-ranger.json",
+      "size": 149877,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/class-rogue.json",
+      "size": 147219,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/class-sidekick.json",
+      "size": 34184,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/class-sorcerer.json",
+      "size": 177122,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/class-warlock.json",
+      "size": 162077,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/class-wizard.json",
+      "size": 192861,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/fluff-class-artificer.json",
+      "size": 13719,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/fluff-class-barbarian.json",
+      "size": 20887,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/fluff-class-bard.json",
+      "size": 25303,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/fluff-class-cleric.json",
+      "size": 23540,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/fluff-class-druid.json",
+      "size": 47240,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/fluff-class-fighter.json",
+      "size": 22112,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/fluff-class-monk.json",
+      "size": 21038,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/fluff-class-mystic.json",
+      "size": 7654,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/fluff-class-paladin.json",
+      "size": 22802,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/fluff-class-ranger.json",
+      "size": 21001,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/fluff-class-rogue.json",
+      "size": 21351,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/fluff-class-sidekick.json",
+      "size": 2100,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/fluff-class-sorcerer.json",
+      "size": 24514,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/fluff-class-warlock.json",
+      "size": 20771,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/fluff-class-wizard.json",
+      "size": 22737,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/fluff-index.json",
+      "size": 587,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/foundry.json",
+      "size": 535378,
+      "type": "blob"
+    },
+    {
+      "path": "data/class/index.json",
+      "size": 497,
+      "type": "blob"
+    },
+    {
+      "path": "data/conditionsdiseases.json",
+      "size": 68307,
+      "type": "blob"
+    },
+    {
+      "path": "data/converter.json",
+      "size": 34175,
+      "type": "blob"
+    },
+    {
+      "path": "data/cultsboons.json",
+      "size": 73069,
+      "type": "blob"
+    },
+    {
+      "path": "data/decks.json",
+      "size": 746344,
+      "type": "blob"
+    },
+    {
+      "path": "data/deities.json",
+      "size": 786297,
+      "type": "blob"
+    },
+    {
+      "path": "data/encounterbuilder.json",
+      "size": 3983,
+      "type": "blob"
+    },
+    {
+      "path": "data/encounters.json",
+      "size": 341754,
+      "type": "blob"
+    },
+    {
+      "path": "data/feats.json",
+      "size": 408182,
+      "type": "blob"
+    },
+    {
+      "path": "data/fluff-backgrounds.json",
+      "size": 167114,
+      "type": "blob"
+    },
+    {
+      "path": "data/fluff-bastions.json",
+      "size": 6227,
+      "type": "blob"
+    },
+    {
+      "path": "data/fluff-charcreationoptions.json",
+      "size": 1888,
+      "type": "blob"
+    },
+    {
+      "path": "data/fluff-conditionsdiseases.json",
+      "size": 3233,
+      "type": "blob"
+    },
+    {
+      "path": "data/fluff-feats.json",
+      "size": 13177,
+      "type": "blob"
+    },
+    {
+      "path": "data/fluff-homecrafts.json",
+      "size": 44944,
+      "type": "blob"
+    },
+    {
+      "path": "data/fluff-items.json",
+      "size": 250485,
+      "type": "blob"
+    },
+    {
+      "path": "data/fluff-languages.json",
+      "size": 6296,
+      "type": "blob"
+    },
+    {
+      "path": "data/fluff-objects.json",
+      "size": 3109,
+      "type": "blob"
+    },
+    {
+      "path": "data/fluff-optionalfeatures.json",
+      "size": 298,
+      "type": "blob"
+    },
+    {
+      "path": "data/fluff-races.json",
+      "size": 483742,
+      "type": "blob"
+    },
+    {
+      "path": "data/fluff-recipes.json",
+      "size": 341108,
+      "type": "blob"
+    },
+    {
+      "path": "data/fluff-rewards.json",
+      "size": 23,
+      "type": "blob"
+    },
+    {
+      "path": "data/fluff-trapshazards.json",
+      "size": 2810,
+      "type": "blob"
+    },
+    {
+      "path": "data/fluff-vehicles.json",
+      "size": 73474,
+      "type": "blob"
+    },
+    {
+      "path": "data/foundry-actions.json",
+      "size": 2397,
+      "type": "blob"
+    },
+    {
+      "path": "data/foundry-feats.json",
+      "size": 89607,
+      "type": "blob"
+    },
+    {
+      "path": "data/foundry-items.json",
+      "size": 604438,
+      "type": "blob"
+    },
+    {
+      "path": "data/foundry-optionalfeatures.json",
+      "size": 121097,
+      "type": "blob"
+    },
+    {
+      "path": "data/foundry-psionics.json",
+      "size": 3,
+      "type": "blob"
+    },
+    {
+      "path": "data/foundry-races.json",
+      "size": 82833,
+      "type": "blob"
+    },
+    {
+      "path": "data/foundry-rewards.json",
+      "size": 330,
+      "type": "blob"
+    },
+    {
+      "path": "data/foundry-vehicles.json",
+      "size": 434,
+      "type": "blob"
+    },
+    {
+      "path": "data/generated",
+      "size": 0,
+      "type": "tree"
+    },
+    {
+      "path": "data/generated/README.md",
+      "size": 100,
+      "type": "blob"
+    },
+    {
+      "path": "data/generated/bookref-dmscreen-index.json",
+      "size": 3883,
+      "type": "blob"
+    },
+    {
+      "path": "data/generated/bookref-dmscreen.json",
+      "size": 353447,
+      "type": "blob"
+    },
+    {
+      "path": "data/generated/bookref-quick.json",
+      "size": 262223,
+      "type": "blob"
+    },
+    {
+      "path": "data/generated/gendata-maps.json",
+      "size": 2855749,
+      "type": "blob"
+    },
+    {
+      "path": "data/generated/gendata-nav-adventure-book-index.json",
+      "size": 30167,
+      "type": "blob"
+    },
+    {
+      "path": "data/generated/gendata-spell-source-lookup.json",
+      "size": 726828,
+      "type": "blob"
+    },
+    {
+      "path": "data/generated/gendata-subclass-lookup.json",
+      "size": 14437,
+      "type": "blob"
+    },
+    {
+      "path": "data/generated/gendata-tables.json",
+      "size": 2957783,
+      "type": "blob"
+    },
+    {
+      "path": "data/generated/gendata-tag-redirects.json",
+      "size": 150877,
+      "type": "blob"
+    },
+    {
+      "path": "data/generated/gendata-variantrules.json",
+      "size": 49898,
+      "type": "blob"
+    },
+    {
+      "path": "data/homecrafts.json",
+      "size": 432591,
+      "type": "blob"
+    },
+    {
+      "path": "data/items-base.json",
+      "size": 185338,
+      "type": "blob"
+    },
+    {
+      "path": "data/items.json",
+      "size": 2886019,
+      "type": "blob"
+    },
+    {
+      "path": "data/languages.json",
+      "size": 62764,
+      "type": "blob"
+    },
+    {
+      "path": "data/life.json",
+      "size": 46760,
+      "type": "blob"
+    },
+    {
+      "path": "data/loot.json",
+      "size": 163728,
+      "type": "blob"
+    },
+    {
+      "path": "data/magicvariants.json",
+      "size": 234458,
+      "type": "blob"
+    },
+    {
+      "path": "data/makebrew-creature.json",
+      "size": 117235,
+      "type": "blob"
+    },
+    {
+      "path": "data/makecards.json",
+      "size": 5327,
+      "type": "blob"
+    },
+    {
+      "path": "data/monsterfeatures.json",
+      "size": 6196,
+      "type": "blob"
+    },
+    {
+      "path": "data/msbcr.json",
+      "size": 5298,
+      "type": "blob"
+    },
+    {
+      "path": "data/names.json",
+      "size": 230277,
+      "type": "blob"
+    },
+    {
+      "path": "data/objects.json",
+      "size": 41858,
+      "type": "blob"
+    },
+    {
+      "path": "data/optionalfeatures.json",
+      "size": 146939,
+      "type": "blob"
+    },
+    {
+      "path": "data/psionics.json",
+      "size": 109023,
+      "type": "blob"
+    },
+    {
+      "path": "data/races.json",
+      "size": 567194,
+      "type": "blob"
+    },
+    {
+      "path": "data/recipes.json",
+      "size": 1061856,
+      "type": "blob"
+    },
+    {
+      "path": "data/renderdemo.json",
+      "size": 61281,
+      "type": "blob"
+    },
+    {
+      "path": "data/rewards.json",
+      "size": 146461,
+      "type": "blob"
+    },
+    {
+      "path": "data/senses.json",
+      "size": 4898,
+      "type": "blob"
+    },
+    {
+      "path": "data/skills.json",
+      "size": 12903,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells",
+      "size": 0,
+      "type": "tree"
+    },
+    {
+      "path": "data/spells/fluff-index.json",
+      "size": 337,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/fluff-spells-aag.json",
+      "size": 291,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/fluff-spells-au.json",
+      "size": 1068,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/fluff-spells-egw.json",
+      "size": 568,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/fluff-spells-frhof.json",
+      "size": 1569,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/fluff-spells-ftd.json",
+      "size": 801,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/fluff-spells-ggr.json",
+      "size": 305,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/fluff-spells-phb.json",
+      "size": 2943,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/fluff-spells-tce.json",
+      "size": 3411,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/fluff-spells-xge.json",
+      "size": 2483,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/fluff-spells-xphb.json",
+      "size": 14447,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/foundry.json",
+      "size": 427691,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/index.json",
+      "size": 511,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/sources.json",
+      "size": 244912,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-aag.json",
+      "size": 1998,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-ai.json",
+      "size": 11283,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-aitfr-avt.json",
+      "size": 4306,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-au.json",
+      "size": 49078,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-bmt.json",
+      "size": 4223,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-efa.json",
+      "size": 1577,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-egw.json",
+      "size": 23028,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-frhof.json",
+      "size": 33094,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-ftd.json",
+      "size": 11872,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-ggr.json",
+      "size": 1504,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-idrotf.json",
+      "size": 2670,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-llk.json",
+      "size": 6457,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-phb.json",
+      "size": 638585,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-sato.json",
+      "size": 2387,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-scc.json",
+      "size": 5678,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-tce.json",
+      "size": 34224,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-xge.json",
+      "size": 162921,
+      "type": "blob"
+    },
+    {
+      "path": "data/spells/spells-xphb.json",
+      "size": 596499,
+      "type": "blob"
+    },
+    {
+      "path": "data/tables.json",
+      "size": 19867,
+      "type": "blob"
+    },
+    {
+      "path": "data/trapshazards.json",
+      "size": 161202,
+      "type": "blob"
+    },
+    {
+      "path": "data/variantrules.json",
+      "size": 677182,
+      "type": "blob"
+    },
+    {
+      "path": "data/vehicles.json",
+      "size": 102950,
+      "type": "blob"
+    }
+  ],
+  "categories": {
+    "action": {
+      "total": 48,
+      "open": 37,
+      "files": [
+        "data/actions.json"
+      ],
+      "sources": {
+        "DMG": 8,
+        "PHB": 20,
+        "XPHB": 18,
+        "XGE": 2
+      }
+    },
+    "charoption": {
+      "total": 44,
+      "open": 0,
+      "files": [
+        "data/charcreationoptions.json"
+      ],
+      "sources": {
+        "IDRotF": 17,
+        "MOT": 9,
+        "HotDQ": 2,
+        "OotA": 2,
+        "VRGR": 13,
+        "EGW": 1
+      }
+    },
+    "facility": {
+      "total": 70,
+      "open": 0,
+      "files": [
+        "data/bastions.json"
+      ],
+      "sources": {
+        "FRHoF": 8,
+        "RHW": 8,
+        "XDMG": 35,
+        "EFA": 10,
+        "AU": 9
+      }
+    },
+    "book": {
+      "total": 67,
+      "open": 0,
+      "files": [
+        "data/books.json"
+      ],
+      "sources": {
+        "PHB": 1,
+        "MM": 1,
+        "DMG": 1,
+        "Screen": 1,
+        "SCAG": 1,
+        "PSZ": 1,
+        "PSI": 1,
+        "AL": 1,
+        "VGM": 1,
+        "PSK": 1,
+        "PSA": 1,
+        "OGA": 1,
+        "XGE": 1,
+        "PSX": 1,
+        "MTF": 1,
+        "PSD": 1,
+        "GGR": 1,
+        "SAC": 1,
+        "AI": 1,
+        "AWM": 1,
+        "RMR": 1,
+        "ERLW": 1,
+        "EGW": 1,
+        "MOT": 1,
+        "ScreenDungeonKit": 1,
+        "HF": 1,
+        "ScreenWildernessKit": 1,
+        "TCE": 1,
+        "MGELFT": 1,
+        "VRGR": 1,
+        "DoD": 1,
+        "MaBJoV": 1,
+        "FTD": 1,
+        "SCC": 1,
+        "MPMM": 1,
+        "MCV1SC": 1,
+        "TD": 1,
+        "ScreenSpelljammer": 1,
+        "AAG": 1,
+        "BAM": 1,
+        "HAT-TG": 1,
+        "BGG": 1,
+        "MCV4EC": 1,
+        "MPP": 1,
+        "SatO": 1,
+        "AATM": 1,
+        "HFFotM": 1,
+        "BMT": 1,
+        "DMTCRG": 1,
+        "PaF": 1,
+        "XPHB": 1,
+        "XDMG": 1,
+        "XScreen": 1,
+        "XMM": 1,
+        "XSAC": 1,
+        "ABH": 1,
+        "FRAiF": 1,
+        "FRHoF": 1,
+        "NF": 1,
+        "LFL": 1,
+        "EFA": 1,
+        "CaBoMP": 1,
+        "XScreenRHW": 1,
+        "RHW": 1,
+        "AU": 1,
+        "HFLotT": 1,
+        "PL": 1
+      }
+    },
+    "background": {
+      "total": 175,
+      "open": 5,
+      "files": [
+        "data/backgrounds.json"
+      ],
+      "sources": {
+        "EFA": 17,
+        "PHB": 20,
+        "XPHB": 16,
+        "AU": 10,
+        "ToA": 2,
+        "AAG": 2,
+        "MOT": 1,
+        "EGW": 7,
+        "GGR": 10,
+        "BGDIA": 14,
+        "ABH": 3,
+        "AI": 5,
+        "FRHoF": 18,
+        "SCAG": 13,
+        "PL": 4,
+        "WBtW": 2,
+        "GoS": 4,
+        "SatO": 2,
+        "BGG": 2,
+        "RHW": 4,
+        "VRGR": 2,
+        "ERLW": 1,
+        "PSA": 4,
+        "PSI": 1,
+        "DSotDQ": 2,
+        "SCC": 5,
+        "LFL": 2,
+        "BMT": 2
+      }
+    },
+    "adventure": {
+      "total": 102,
+      "open": 0,
+      "files": [
+        "data/adventures.json"
+      ],
+      "sources": {
+        "LMoP": 1,
+        "HotDQ": 1,
+        "RoT": 1,
+        "PotA": 1,
+        "OotA": 1,
+        "CoS": 1,
+        "SKT": 1,
+        "TftYP-TSC": 1,
+        "TftYP-TFoF": 1,
+        "TftYP-THSoT": 1,
+        "TftYP-WPM": 1,
+        "TftYP-DiT": 1,
+        "TftYP-AtG": 1,
+        "TftYP-ToH": 1,
+        "ToA": 1,
+        "TTP": 1,
+        "TLK": 1,
+        "XMtS": 1,
+        "WDH": 1,
+        "LLK": 1,
+        "WDMM": 1,
+        "KKW": 1,
+        "AZfyT": 1,
+        "GoS": 1,
+        "HftT": 1,
+        "OoW": 1,
+        "DIP": 1,
+        "SLW": 1,
+        "SDW": 1,
+        "DC": 1,
+        "BGDIA": 1,
+        "LR": 1,
+        "IMR": 1,
+        "EFR": 1,
+        "RMBRE": 1,
+        "ToR": 1,
+        "DD": 1,
+        "FS": 1,
+        "US": 1,
+        "MOT": 1,
+        "IDRotF": 1,
+        "CM": 1,
+        "HoL": 1,
+        "RtG": 1,
+        "AitFR-ISF": 1,
+        "AitFR-THP": 1,
+        "AitFR-AVT": 1,
+        "AitFR-DN": 1,
+        "AitFR-FCD": 1,
+        "NRH-TCMC": 1,
+        "NRH-AVitW": 1,
+        "NRH-ASS": 1,
+        "NRH-CoI": 1,
+        "NRH-TLT": 1,
+        "NRH-AWoL": 1,
+        "NRH-AT": 1,
+        "WBtW": 1,
+        "SCC-CK": 1,
+        "SCC-HfMT": 1,
+        "SCC-TMM": 1,
+        "SCC-ARiR": 1,
+        "CRCotN": 1,
+        "JttRC": 1,
+        "DoSI": 1,
+        "SjA": 1,
+        "LoX": 1,
+        "DSotDQ": 1,
+        "KftGV": 1,
+        "GotSF": 1,
+        "PaBTSO": 1,
+        "LK": 1,
+        "ToFW": 1,
+        "CoA": 1,
+        "PiP": 1,
+        "HFStCM": 1,
+        "DitLCoT": 1,
+        "LRDT": 1,
+        "VNotEE": 1,
+        "VEoR": 1,
+        "QftIS": 1,
+        "UtHftLH": 1,
+        "ScoEE": 1,
+        "HBTD": 1,
+        "BQGT": 1,
+        "DrDe-DaS": 1,
+        "DrDe-BD": 1,
+        "DrDe-TWoO": 1,
+        "DrDe-FWtVC": 1,
+        "DrDe-TDoN": 1,
+        "DrDe-TFV": 1,
+        "DrDe-BtS": 1,
+        "DrDe-SD": 1,
+        "DrDe-ACfaS": 1,
+        "DrDe-DotSC": 1,
+        "HotB": 1,
+        "WttHC": 1,
+        "FRAiF": 1,
+        "FFotR": 1,
+        "BQDD": 1,
+        "SoS": 1,
+        "RWG": 1,
+        "AUD": 1
+      }
+    },
+    "condition": {
+      "total": 30,
+      "open": 30,
+      "files": [
+        "data/conditionsdiseases.json"
+      ],
+      "sources": {
+        "PHB": 15,
+        "XPHB": 15
+      }
+    },
+    "disease": {
+      "total": 29,
+      "open": 6,
+      "files": [
+        "data/conditionsdiseases.json"
+      ],
+      "sources": {
+        "IDRotF": 1,
+        "PHB": 6,
+        "ToA": 3,
+        "GoS": 2,
+        "DMG": 3,
+        "XDMG": 3,
+        "EGW": 1,
+        "OoW": 1,
+        "OotA": 1,
+        "FRAiF": 4,
+        "CM": 1,
+        "WDMM": 1,
+        "TftYP": 1,
+        "VRGR": 1
+      }
+    },
+    "status": {
+      "total": 5,
+      "open": 5,
+      "files": [
+        "data/conditionsdiseases.json"
+      ],
+      "sources": {
+        "XPHB": 3,
+        "PHB": 2
+      }
+    },
+    "encounter": {
+      "total": 42,
+      "open": 0,
+      "files": [
+        "data/encounters.json"
+      ],
+      "sources": {
+        "EFA": 1,
+        "XGE": 11,
+        "BAM": 3,
+        "DMG": 4,
+        "BGG": 18,
+        "FRAiF": 1,
+        "AATM": 1,
+        "GoS": 1,
+        "MPP": 1,
+        "SatO": 1
+      }
+    },
+    "cult": {
+      "total": 30,
+      "open": 0,
+      "files": [
+        "data/cultsboons.json"
+      ],
+      "sources": {
+        "MTF": 15,
+        "MPMM": 10,
+        "PSD": 1,
+        "PotA": 4
+      }
+    },
+    "boon": {
+      "total": 12,
+      "open": 0,
+      "files": [
+        "data/cultsboons.json"
+      ],
+      "sources": {
+        "MTF": 12
+      }
+    },
+    "feat": {
+      "total": 305,
+      "open": 18,
+      "files": [
+        "data/feats.json"
+      ],
+      "sources": {
+        "RHW": 11,
+        "EFA": 28,
+        "ERLW": 2,
+        "XPHB": 77,
+        "AU": 29,
+        "PHB": 42,
+        "DSotDQ": 9,
+        "SatO": 7,
+        "TCE": 15,
+        "ABH": 16,
+        "FRHoF": 34,
+        "XGE": 15,
+        "BMT": 1,
+        "LFL": 2,
+        "BGG": 8,
+        "FTD": 3,
+        "PSK": 2,
+        "SCC": 2,
+        "MTF": 1,
+        "PSX": 1
+      }
+    },
+    "deck": {
+      "total": 35,
+      "open": 4,
+      "files": [
+        "data/decks.json"
+      ],
+      "sources": {
+        "ESK": 3,
+        "ScreenDungeonKit": 4,
+        "DMG": 3,
+        "XDMG": 3,
+        "BMT": 3,
+        "DMTCRG": 4,
+        "HFDoMM": 1,
+        "LLK": 1,
+        "WDMM": 2,
+        "CRCotN": 2,
+        "DIP": 4,
+        "WBtW": 1,
+        "CoS": 1,
+        "RHW": 1,
+        "TD": 1,
+        "ToA": 1
+      }
+    },
+    "card": {
+      "total": 765,
+      "open": 107,
+      "files": [
+        "data/decks.json"
+      ],
+      "sources": {
+        "ESK": 24,
+        "ScreenDungeonKit": 63,
+        "DMG": 53,
+        "XDMG": 55,
+        "BMT": 110,
+        "DMTCRG": 66,
+        "HFDoMM": 52,
+        "LLK": 22,
+        "WDMM": 27,
+        "CRCotN": 17,
+        "DIP": 49,
+        "WBtW": 32,
+        "CoS": 54,
+        "RHW": 54,
+        "TD": 78,
+        "ToA": 9
+      }
+    },
+    "deity": {
+      "total": 563,
+      "open": 49,
+      "files": [
+        "data/deities.json"
+      ],
+      "sources": {
+        "MTF": 80,
+        "SCAG": 99,
+        "PHB": 195,
+        "FRHoF": 42,
+        "ERLW": 21,
+        "EGW": 32,
+        "DMG": 20,
+        "MOT": 15,
+        "VGM": 9,
+        "XDMG": 27,
+        "DSotDQ": 21,
+        "VRGR": 1,
+        "GoS": 1
+      }
+    },
+    "baseitem": {
+      "total": 230,
+      "open": 185,
+      "files": [
+        "data/items-base.json"
+      ],
+      "sources": {
+        "PHB": 91,
+        "XPHB": 94,
+        "DMG": 15,
+        "XDMG": 9,
+        "FRHoF": 3,
+        "SCAG": 13,
+        "ERLW": 1,
+        "OotA": 2,
+        "DSotDQ": 1,
+        "ToA": 1
+      }
+    },
+    "language": {
+      "total": 201,
+      "open": 37,
+      "files": [
+        "data/languages.json"
+      ],
+      "sources": {
+        "MM": 21,
+        "XMM": 15,
+        "DSotDQ": 19,
+        "GGR": 16,
+        "PHB": 18,
+        "XPHB": 19,
+        "FRHoF": 17,
+        "SCAG": 20,
+        "PSD": 3,
+        "SKT": 2,
+        "ERLW": 16,
+        "MOT": 9,
+        "PSX": 6,
+        "PSI": 4,
+        "AI": 1,
+        "VGM": 4,
+        "RoT": 1,
+        "OotA": 1,
+        "PSA": 2,
+        "MTF": 1,
+        "IDRotF": 1,
+        "EGW": 3,
+        "HotDQ": 1,
+        "TftYP": 1
+      }
+    },
+    "languageScript": {
+      "total": 6,
+      "open": 0,
+      "files": [
+        "data/languages.json"
+      ],
+      "sources": {
+        "PHB": 5,
+        "XPHB": 1
+      }
+    },
+    "magicvariant": {
+      "total": 230,
+      "open": 92,
+      "files": [
+        "data/magicvariants.json"
+      ],
+      "sources": {
+        "DMG": 46,
+        "XDMG": 82,
+        "EGW": 4,
+        "XGE": 7,
+        "AU": 11,
+        "BMT": 18,
+        "ERLW": 18,
+        "BGG": 3,
+        "FTD": 7,
+        "PHB": 3,
+        "LLK": 3,
+        "EFA": 3,
+        "DitLCoT": 1,
+        "CoA": 4,
+        "MM": 6,
+        "BGDIA": 1,
+        "AUD": 5,
+        "VGM": 2,
+        "AI": 2,
+        "GGR": 1,
+        "MOT": 1,
+        "CRCotN": 2
+      },
+      "note": "Flags de licença também podem estar em inherits. Variantes estruturadas ainda dependem de revisão; o texto SRD está disponível nos PDFs."
+    },
+    "object": {
+      "total": 37,
+      "open": 1,
+      "files": [
+        "data/objects.json"
+      ],
+      "sources": {
+        "WDMM": 1,
+        "HBTD": 6,
+        "DMG": 8,
+        "XDMG": 10,
+        "DSotDQ": 2,
+        "RMBRE": 2,
+        "EFA": 1,
+        "TCE": 3,
+        "TftYP": 1,
+        "IDRotF": 1,
+        "JttRC": 1,
+        "BMT": 1
+      }
+    },
+    "crochetPattern": {
+      "total": 20,
+      "open": 0,
+      "files": [
+        "data/homecrafts.json"
+      ],
+      "sources": {
+        "CaBoMP": 20
+      }
+    },
+    "item": {
+      "total": 2512,
+      "open": 949,
+      "files": [
+        "data/items.json"
+      ],
+      "sources": {
+        "TCE": 84,
+        "FTD": 24,
+        "BMT": 73,
+        "DMG": 500,
+        "XDMG": 584,
+        "PHB": 168,
+        "IDRotF": 31,
+        "CoA": 24,
+        "XPHB": 123,
+        "WDH": 28,
+        "FRHoF": 24,
+        "BGG": 31,
+        "ERLW": 30,
+        "MOT": 12,
+        "SCC": 18,
+        "CM": 12,
+        "NRH-TLT": 1,
+        "PSX": 50,
+        "NRH-AT": 2,
+        "TftYP": 23,
+        "ToA": 26,
+        "EGW": 85,
+        "QftIS": 11,
+        "NF": 8,
+        "AU": 75,
+        "GGR": 41,
+        "PotA": 20,
+        "SKT": 20,
+        "LLK": 13,
+        "AAG": 20,
+        "BGDIA": 13,
+        "XGE": 43,
+        "JttRC": 5,
+        "WBtW": 19,
+        "WDMM": 26,
+        "HotDQ": 6,
+        "IMR": 11,
+        "CoS": 14,
+        "RoTOS": 4,
+        "SDW": 1,
+        "KftGV": 8,
+        "EFA": 6,
+        "HotB": 2,
+        "PaBTSO": 23,
+        "FRAiF": 18,
+        "WttHC": 8,
+        "AI": 23,
+        "GoS": 6,
+        "VEoR": 3,
+        "AitFR-AVT": 3,
+        "XMM": 1,
+        "RMBRE": 1,
+        "TTP": 1,
+        "AUD": 9,
+        "OotA": 16,
+        "XMtS": 6,
+        "RoT": 3,
+        "LMoP": 5,
+        "CRCotN": 14,
+        "RHW": 2,
+        "MTF": 4,
+        "DSotDQ": 5,
+        "VGM": 7,
+        "SatO": 5,
+        "DC": 2,
+        "MM": 4,
+        "VRGR": 5,
+        "HAT-LMI": 5,
+        "DitLCoT": 3,
+        "LoX": 1,
+        "MCV2DC": 1,
+        "UtHftLH": 1,
+        "AitFR-THP": 1,
+        "LFL": 2,
+        "BAM": 1,
+        "EET": 1,
+        "AZfyT": 1,
+        "OGA": 1,
+        "HftT": 1
+      }
+    },
+    "itemGroup": {
+      "total": 119,
+      "open": 31,
+      "files": [
+        "data/items.json"
+      ],
+      "sources": {
+        "TCE": 2,
+        "PHB": 6,
+        "XPHB": 6,
+        "DMG": 26,
+        "XDMG": 28,
+        "EGW": 15,
+        "AU": 10,
+        "WBtW": 1,
+        "PotA": 1,
+        "FTD": 4,
+        "VGM": 1,
+        "ERLW": 3,
+        "GGR": 2,
+        "LLK": 1,
+        "CRCotN": 1,
+        "IDRotF": 1,
+        "FRAiF": 1,
+        "PaBTSO": 1,
+        "FRHoF": 1,
+        "SCAG": 1,
+        "TftYP": 1,
+        "BGG": 1,
+        "BMT": 2,
+        "KftGV": 1,
+        "OotA": 1,
+        "CoA": 1
+      }
+    },
+    "sense": {
+      "total": 8,
+      "open": 8,
+      "files": [
+        "data/senses.json"
+      ],
+      "sources": {
+        "PHB": 3,
+        "XPHB": 4,
+        "MM": 1
+      }
+    },
+    "psionic": {
+      "total": 52,
+      "open": 0,
+      "files": [
+        "data/psionics.json"
+      ],
+      "sources": {
+        "UATheMysticClass": 52
+      }
+    },
+    "optionalfeature": {
+      "total": 221,
+      "open": 87,
+      "files": [
+        "data/optionalfeatures.json"
+      ],
+      "sources": {
+        "PHB": 82,
+        "XPHB": 58,
+        "TCE": 47,
+        "XGE": 22,
+        "AU": 8,
+        "EFA": 4
+      }
+    },
+    "reward": {
+      "total": 278,
+      "open": 0,
+      "files": [
+        "data/rewards.json"
+      ],
+      "sources": {
+        "VRGR": 4,
+        "XDMG": 19,
+        "MOT": 60,
+        "GGR": 10,
+        "RHW": 5,
+        "BMT": 26,
+        "PaBTSO": 2,
+        "DMG": 40,
+        "IDRotF": 17,
+        "DrDe": 2,
+        "BGDIA": 7,
+        "BAM": 2,
+        "EFA": 16,
+        "ToA": 19,
+        "VNotEE": 2,
+        "CM": 3,
+        "DIP": 1,
+        "HFStCM": 1,
+        "ToR": 1,
+        "CoS": 17,
+        "FTD": 8,
+        "DSotDQ": 3,
+        "ToFW": 2,
+        "CRCotN": 9,
+        "MTF": 1,
+        "AU": 1
+      }
+    },
+    "race": {
+      "total": 160,
+      "open": 18,
+      "files": [
+        "data/races.json"
+      ],
+      "sources": {
+        "DMG": 17,
+        "EEPC": 2,
+        "MPMM": 30,
+        "VGM": 13,
+        "XPHB": 10,
+        "PSK": 5,
+        "AAG": 6,
+        "PSA": 4,
+        "PSD": 1,
+        "LFL": 7,
+        "ERLW": 8,
+        "GGR": 6,
+        "MOT": 5,
+        "EFA": 5,
+        "TCE": 1,
+        "RHW": 4,
+        "VRGR": 3,
+        "PHB": 9,
+        "FTD": 3,
+        "PSZ": 6,
+        "WBtW": 2,
+        "MTF": 1,
+        "AWM": 1,
+        "OGA": 1,
+        "PSI": 1,
+        "PSX": 3,
+        "DSotDQ": 1,
+        "LR": 1,
+        "EGW": 1,
+        "SCC": 1,
+        "TTP": 1,
+        "AI": 1
+      }
+    },
+    "subrace": {
+      "total": 98,
+      "open": 4,
+      "files": [
+        "data/races.json"
+      ],
+      "sources": {
+        "PSA": 3,
+        "VGM": 3,
+        "PHB": 15,
+        "EGW": 4,
+        "MTF": 16,
+        "ERLW": 17,
+        "DMG": 1,
+        "PSK": 2,
+        "PSZ": 10,
+        "EEPC": 4,
+        "MPMM": 4,
+        "SCAG": 10,
+        "PSX": 4,
+        "PSD": 1,
+        "PSI": 4
+      }
+    },
+    "recipe": {
+      "total": 316,
+      "open": 0,
+      "files": [
+        "data/recipes.json"
+      ],
+      "sources": {
+        "HFLotT": 75,
+        "HF": 79,
+        "PaF": 76,
+        "HFFotM": 76,
+        "HFDoMM": 10
+      }
+    },
+    "skill": {
+      "total": 36,
+      "open": 36,
+      "files": [
+        "data/skills.json"
+      ],
+      "sources": {
+        "PHB": 18,
+        "XPHB": 18
+      }
+    },
+    "monster": {
+      "total": 4574,
+      "open": 659,
+      "files": [
+        "data/bestiary/bestiary-aatm.json",
+        "data/bestiary/bestiary-aitfr-thp.json",
+        "data/bestiary/bestiary-aitfr-fcd.json",
+        "data/bestiary/bestiary-aitfr-isf.json",
+        "data/bestiary/bestiary-abh.json",
+        "data/bestiary/bestiary-ai.json",
+        "data/bestiary/bestiary-aitfr-dn.json",
+        "data/bestiary/bestiary-au.json",
+        "data/bestiary/bestiary-bgdia.json",
+        "data/bestiary/bestiary-awm.json",
+        "data/bestiary/bestiary-bam.json",
+        "data/bestiary/bestiary-aud.json",
+        "data/bestiary/bestiary-bgg.json",
+        "data/bestiary/bestiary-cos.json",
+        "data/bestiary/bestiary-dc.json",
+        "data/bestiary/bestiary-crcotn.json",
+        "data/bestiary/bestiary-bmt.json",
+        "data/bestiary/bestiary-cm.json",
+        "data/bestiary/bestiary-coa.json",
+        "data/bestiary/bestiary-dod.json",
+        "data/bestiary/bestiary-dosi.json",
+        "data/bestiary/bestiary-dip.json",
+        "data/bestiary/bestiary-drde-bd.json",
+        "data/bestiary/bestiary-dmg.json",
+        "data/bestiary/bestiary-ditlcot.json",
+        "data/bestiary/bestiary-esk.json",
+        "data/bestiary/bestiary-dsotdq.json",
+        "data/bestiary/bestiary-erlw.json",
+        "data/bestiary/bestiary-efa.json",
+        "data/bestiary/bestiary-egw.json",
+        "data/bestiary/bestiary-fraif.json",
+        "data/bestiary/bestiary-hftt.json",
+        "data/bestiary/bestiary-gotsf.json",
+        "data/bestiary/bestiary-hat-tg.json",
+        "data/bestiary/bestiary-gos.json",
+        "data/bestiary/bestiary-ggr.json",
+        "data/bestiary/bestiary-ftd.json",
+        "data/bestiary/bestiary-hol.json",
+        "data/bestiary/bestiary-imr.json",
+        "data/bestiary/bestiary-jttrc.json",
+        "data/bestiary/bestiary-hotb.json",
+        "data/bestiary/bestiary-hotdq.json",
+        "data/bestiary/bestiary-idrotf.json",
+        "data/bestiary/bestiary-lox.json",
+        "data/bestiary/bestiary-lmop.json",
+        "data/bestiary/bestiary-kkw.json",
+        "data/bestiary/bestiary-lfl.json",
+        "data/bestiary/bestiary-llk.json",
+        "data/bestiary/bestiary-kftgv.json",
+        "data/bestiary/bestiary-mcv3mc.json",
+        "data/bestiary/bestiary-mcv1sc.json",
+        "data/bestiary/bestiary-lr.json",
+        "data/bestiary/bestiary-mcv2dc.json",
+        "data/bestiary/bestiary-lrdt.json",
+        "data/bestiary/bestiary-mabjov.json",
+        "data/bestiary/bestiary-mismv1.json",
+        "data/bestiary/bestiary-mcv4ec.json",
+        "data/bestiary/bestiary-mgelft.json",
+        "data/bestiary/bestiary-mff.json",
+        "data/bestiary/bestiary-mot.json",
+        "data/bestiary/bestiary-mm.json",
+        "data/bestiary/bestiary-nrh-at.json",
+        "data/bestiary/bestiary-nrh-ass.json",
+        "data/bestiary/bestiary-nf.json",
+        "data/bestiary/bestiary-mpp.json",
+        "data/bestiary/bestiary-mpmm.json",
+        "data/bestiary/bestiary-mtf.json",
+        "data/bestiary/bestiary-nrh-tlt.json",
+        "data/bestiary/bestiary-nrh-avitw.json",
+        "data/bestiary/bestiary-nrh-tcmc.json",
+        "data/bestiary/bestiary-nrh-coi.json",
+        "data/bestiary/bestiary-nrh-awol.json",
+        "data/bestiary/bestiary-oota.json",
+        "data/bestiary/bestiary-ps-a.json",
+        "data/bestiary/bestiary-oow.json",
+        "data/bestiary/bestiary-phb.json",
+        "data/bestiary/bestiary-pl.json",
+        "data/bestiary/bestiary-pabtso.json",
+        "data/bestiary/bestiary-pota.json",
+        "data/bestiary/bestiary-ps-d.json",
+        "data/bestiary/bestiary-ps-z.json",
+        "data/bestiary/bestiary-ps-x.json",
+        "data/bestiary/bestiary-ps-k.json",
+        "data/bestiary/bestiary-ps-i.json",
+        "data/bestiary/bestiary-qftis.json",
+        "data/bestiary/bestiary-sads.json",
+        "data/bestiary/bestiary-rwg.json",
+        "data/bestiary/bestiary-rtg.json",
+        "data/bestiary/bestiary-rmbre.json",
+        "data/bestiary/bestiary-rot.json",
+        "data/bestiary/bestiary-rhw.json",
+        "data/bestiary/bestiary-slw.json",
+        "data/bestiary/bestiary-tce.json",
+        "data/bestiary/bestiary-sdw.json",
+        "data/bestiary/bestiary-scc.json",
+        "data/bestiary/bestiary-skt.json",
+        "data/bestiary/bestiary-tftyp.json",
+        "data/bestiary/bestiary-vd.json",
+        "data/bestiary/bestiary-ttp.json",
+        "data/bestiary/bestiary-tofw.json",
+        "data/bestiary/bestiary-toa.json",
+        "data/bestiary/bestiary-veor.json",
+        "data/bestiary/bestiary-vgm.json",
+        "data/bestiary/bestiary-xdmg.json",
+        "data/bestiary/bestiary-wtthc.json",
+        "data/bestiary/bestiary-vrgr.json",
+        "data/bestiary/bestiary-wdmm.json",
+        "data/bestiary/bestiary-wdh.json",
+        "data/bestiary/bestiary-wbtw.json",
+        "data/bestiary/bestiary-xge.json",
+        "data/bestiary/bestiary-xphb.json",
+        "data/bestiary/bestiary-xmm.json"
+      ],
+      "sources": {
+        "AATM": 3,
+        "AitFR-THP": 3,
+        "AitFR-FCD": 2,
+        "AitFR-ISF": 2,
+        "ABH": 5,
+        "AI": 22,
+        "AitFR-DN": 4,
+        "AU": 23,
+        "BGDIA": 53,
+        "AWM": 11,
+        "BAM": 72,
+        "AUD": 6,
+        "BGG": 72,
+        "CoS": 97,
+        "DC": 5,
+        "CRCotN": 67,
+        "BMT": 41,
+        "CM": 42,
+        "CoA": 61,
+        "DoD": 1,
+        "DoSI": 10,
+        "DIP": 6,
+        "DrDe-BD": 1,
+        "DMG": 3,
+        "DitLCoT": 1,
+        "ESK": 3,
+        "DSotDQ": 58,
+        "ERLW": 41,
+        "EFA": 27,
+        "EGW": 48,
+        "FRAiF": 42,
+        "HftT": 3,
+        "GotSF": 1,
+        "HAT-TG": 7,
+        "GoS": 57,
+        "GGR": 79,
+        "FTD": 85,
+        "HoL": 4,
+        "IMR": 26,
+        "JttRC": 71,
+        "HotB": 11,
+        "HotDQ": 23,
+        "IDRotF": 83,
+        "LoX": 15,
+        "LMoP": 9,
+        "KKW": 3,
+        "LFL": 8,
+        "LLK": 13,
+        "KftGV": 57,
+        "MCV3MC": 5,
+        "MCV1SC": 10,
+        "LR": 6,
+        "MCV2DC": 11,
+        "LRDT": 2,
+        "MaBJoV": 56,
+        "MisMV1": 6,
+        "MCV4EC": 25,
+        "MGELFT": 6,
+        "MFF": 18,
+        "MOT": 51,
+        "MM": 450,
+        "NRH-AT": 3,
+        "NRH-ASS": 1,
+        "NF": 6,
+        "MPP": 54,
+        "MPMM": 261,
+        "MTF": 140,
+        "NRH-AVitW": 2,
+        "NRH-TCMC": 2,
+        "NRH-CoI": 3,
+        "NRH-AWoL": 1,
+        "OotA": 103,
+        "PSA": 24,
+        "OoW": 17,
+        "PHB": 5,
+        "PL": 14,
+        "PaBTSO": 56,
+        "PotA": 59,
+        "PSD": 7,
+        "PSZ": 43,
+        "PSX": 47,
+        "PSK": 27,
+        "PSI": 20,
+        "QftIS": 49,
+        "SADS": 1,
+        "RWG": 1,
+        "RtG": 2,
+        "RMBRE": 9,
+        "RoT": 25,
+        "RHW": 70,
+        "SLW": 7,
+        "TCE": 20,
+        "SDW": 6,
+        "SCC": 47,
+        "SKT": 105,
+        "TftYP": 133,
+        "VD": 1,
+        "TTP": 5,
+        "ToFW": 19,
+        "ToA": 89,
+        "VEoR": 69,
+        "VGM": 143,
+        "XDMG": 2,
+        "WttHC": 31,
+        "VRGR": 35,
+        "WDMM": 110,
+        "WDH": 95,
+        "WBtW": 52,
+        "XGE": 2,
+        "XPHB": 15,
+        "XMM": 503
+      }
+    },
+    "vehicle": {
+      "total": 39,
+      "open": 2,
+      "files": [
+        "data/vehicles.json"
+      ],
+      "sources": {
+        "DMG": 1,
+        "XDMG": 1,
+        "MTF": 3,
+        "AI": 2,
+        "AAG": 16,
+        "BGDIA": 4,
+        "GoS": 6,
+        "EFA": 3,
+        "DD": 1,
+        "DitLCoT": 1,
+        "VEoR": 1
+      }
+    },
+    "vehicleUpgrade": {
+      "total": 31,
+      "open": 0,
+      "files": [
+        "data/vehicles.json"
+      ],
+      "sources": {
+        "BGDIA": 9,
+        "GoS": 22
+      }
+    },
+    "table": {
+      "total": 2390,
+      "open": 1,
+      "files": [
+        "data/tables.json",
+        "data/generated/gendata-tables.json"
+      ],
+      "sources": {
+        "PSX": 25,
+        "AitFR-AVT": 2,
+        "PHB": 43,
+        "MTF": 74,
+        "GGR": 122,
+        "GoS": 5,
+        "SKT": 1,
+        "ToA": 6,
+        "TTP": 1,
+        "LLK": 3,
+        "WBtW": 1,
+        "CoA": 1,
+        "MM": 6,
+        "DMG": 206,
+        "Screen": 8,
+        "SCAG": 9,
+        "AL": 3,
+        "VGM": 76,
+        "PSK": 1,
+        "PSA": 1,
+        "XGE": 178,
+        "PSD": 30,
+        "SAC": 1,
+        "AI": 63,
+        "AWM": 4,
+        "RMR": 17,
+        "ERLW": 175,
+        "EGW": 32,
+        "MOT": 119,
+        "ScreenDungeonKit": 20,
+        "ScreenWildernessKit": 6,
+        "TCE": 72,
+        "MGELFT": 2,
+        "VRGR": 107,
+        "DoD": 24,
+        "MaBJoV": 44,
+        "FTD": 210,
+        "SCC": 14,
+        "MCV1SC": 1,
+        "ScreenSpelljammer": 9,
+        "AAG": 9,
+        "BAM": 5,
+        "BGG": 79,
+        "MCV4EC": 1,
+        "MPP": 22,
+        "SatO": 33,
+        "AATM": 8,
+        "BMT": 30,
+        "DMTCRG": 1,
+        "XPHB": 54,
+        "XDMG": 160,
+        "XScreen": 15,
+        "XMM": 16,
+        "ABH": 3,
+        "FRAiF": 49,
+        "FRHoF": 26,
+        "NF": 3,
+        "LFL": 2,
+        "EFA": 10,
+        "XScreenRHW": 1,
+        "RHW": 90,
+        "AU": 42,
+        "PL": 9
+      },
+      "note": "Inclui tabelas extraídas dos livros pelo upstream; não distribuídas automaticamente."
+    },
+    "trap": {
+      "total": 37,
+      "open": 16,
+      "files": [
+        "data/trapshazards.json"
+      ],
+      "sources": {
+        "BMT": 3,
+        "XGE": 12,
+        "DMG": 8,
+        "XDMG": 8,
+        "VRGR": 4,
+        "RtG": 1,
+        "AZfyT": 1
+      }
+    },
+    "hazard": {
+      "total": 73,
+      "open": 14,
+      "files": [
+        "data/trapshazards.json"
+      ],
+      "sources": {
+        "NF": 5,
+        "IDRotF": 2,
+        "TCE": 7,
+        "FRAiF": 10,
+        "DMG": 16,
+        "XDMG": 25,
+        "XPHB": 5,
+        "BGDIA": 1,
+        "VGM": 2
+      }
+    },
+    "variantrule": {
+      "total": 231,
+      "open": 116,
+      "files": [
+        "data/variantrules.json"
+      ],
+      "sources": {
+        "XPHB": 115,
+        "DMG": 44,
+        "XGE": 22,
+        "AAG": 4,
+        "PHB": 13,
+        "TCE": 3,
+        "AI": 10,
+        "PSI": 1,
+        "GoS": 9,
+        "MM": 3,
+        "VGM": 1,
+        "VRGR": 3,
+        "SCAG": 1,
+        "CoS": 1,
+        "ESK": 1
+      }
+    },
+    "class": {
+      "total": 30,
+      "open": 24,
+      "files": [
+        "data/class/class-barbarian.json",
+        "data/class/class-artificer.json",
+        "data/class/class-bard.json",
+        "data/class/class-mystic.json",
+        "data/class/class-monk.json",
+        "data/class/class-cleric.json",
+        "data/class/class-fighter.json",
+        "data/class/class-druid.json",
+        "data/class/class-paladin.json",
+        "data/class/class-sidekick.json",
+        "data/class/class-warlock.json",
+        "data/class/class-rogue.json",
+        "data/class/class-sorcerer.json",
+        "data/class/class-ranger.json",
+        "data/class/class-wizard.json"
+      ],
+      "sources": {
+        "PHB": 12,
+        "XPHB": 12,
+        "TCE": 4,
+        "EFA": 1,
+        "UATheMysticClass": 1
+      }
+    },
+    "subclass": {
+      "total": 330,
+      "open": 24,
+      "files": [
+        "data/class/class-barbarian.json",
+        "data/class/class-artificer.json",
+        "data/class/class-bard.json",
+        "data/class/class-mystic.json",
+        "data/class/class-monk.json",
+        "data/class/class-cleric.json",
+        "data/class/class-fighter.json",
+        "data/class/class-druid.json",
+        "data/class/class-paladin.json",
+        "data/class/class-warlock.json",
+        "data/class/class-rogue.json",
+        "data/class/class-sorcerer.json",
+        "data/class/class-ranger.json",
+        "data/class/class-wizard.json"
+      ],
+      "sources": {
+        "PHB": 80,
+        "SCAG": 12,
+        "XGE": 62,
+        "TCE": 60,
+        "BGG": 2,
+        "XPHB": 48,
+        "EFA": 5,
+        "RHW": 7,
+        "VRGR": 4,
+        "FRHoF": 8,
+        "UATheMysticClass": 6,
+        "FTD": 4,
+        "AU": 8,
+        "DMG": 4,
+        "PSA": 10,
+        "EGW": 6,
+        "PSK": 2,
+        "DSotDQ": 2
+      }
+    },
+    "classFeature": {
+      "total": 677,
+      "open": 537,
+      "files": [
+        "data/class/class-barbarian.json",
+        "data/class/class-artificer.json",
+        "data/class/class-bard.json",
+        "data/class/class-mystic.json",
+        "data/class/class-monk.json",
+        "data/class/class-cleric.json",
+        "data/class/class-fighter.json",
+        "data/class/class-druid.json",
+        "data/class/class-paladin.json",
+        "data/class/class-sidekick.json",
+        "data/class/class-warlock.json",
+        "data/class/class-rogue.json",
+        "data/class/class-sorcerer.json",
+        "data/class/class-ranger.json",
+        "data/class/class-wizard.json"
+      ],
+      "sources": {
+        "PHB": 254,
+        "TCE": 98,
+        "XPHB": 283,
+        "EFA": 19,
+        "UATheMysticClass": 23
+      }
+    },
+    "subclassFeature": {
+      "total": 1499,
+      "open": 153,
+      "files": [
+        "data/class/class-barbarian.json",
+        "data/class/class-artificer.json",
+        "data/class/class-bard.json",
+        "data/class/class-mystic.json",
+        "data/class/class-monk.json",
+        "data/class/class-cleric.json",
+        "data/class/class-fighter.json",
+        "data/class/class-druid.json",
+        "data/class/class-paladin.json",
+        "data/class/class-warlock.json",
+        "data/class/class-rogue.json",
+        "data/class/class-sorcerer.json",
+        "data/class/class-ranger.json",
+        "data/class/class-wizard.json"
+      ],
+      "sources": {
+        "BGG": 6,
+        "PHB": 302,
+        "SCAG": 47,
+        "TCE": 260,
+        "XGE": 228,
+        "XPHB": 309,
+        "EFA": 41,
+        "RHW": 44,
+        "VRGR": 12,
+        "FRHoF": 56,
+        "UATheMysticClass": 36,
+        "FTD": 12,
+        "AU": 58,
+        "DMG": 17,
+        "PSA": 37,
+        "EGW": 20,
+        "DSotDQ": 8,
+        "PSK": 6
+      }
+    },
+    "spell": {
+      "total": 969,
+      "open": 658,
+      "files": [
+        "data/spells/spells-bmt.json",
+        "data/spells/spells-ai.json",
+        "data/spells/spells-efa.json",
+        "data/spells/spells-aitfr-avt.json",
+        "data/spells/spells-aag.json",
+        "data/spells/spells-au.json",
+        "data/spells/spells-ggr.json",
+        "data/spells/spells-idrotf.json",
+        "data/spells/spells-llk.json",
+        "data/spells/spells-egw.json",
+        "data/spells/spells-ftd.json",
+        "data/spells/spells-frhof.json",
+        "data/spells/spells-sato.json",
+        "data/spells/spells-scc.json",
+        "data/spells/spells-xge.json",
+        "data/spells/spells-tce.json",
+        "data/spells/spells-phb.json",
+        "data/spells/spells-xphb.json"
+      ],
+      "sources": {
+        "BMT": 3,
+        "AI": 7,
+        "EFA": 1,
+        "AitFR-AVT": 1,
+        "AAG": 2,
+        "AU": 33,
+        "GGR": 1,
+        "IDRotF": 2,
+        "LLK": 3,
+        "EGW": 15,
+        "FTD": 7,
+        "FRHoF": 19,
+        "SatO": 2,
+        "SCC": 5,
+        "XGE": 95,
+        "TCE": 21,
+        "PHB": 361,
+        "XPHB": 391
+      }
+    },
+    "tableGroup": {
+      "total": 22,
+      "open": 0,
+      "files": [
+        "data/generated/gendata-tables.json"
+      ],
+      "sources": {
+        "PHB": 1,
+        "DMG": 10,
+        "Screen": 1,
+        "VGM": 1,
+        "XGE": 2,
+        "MTF": 1,
+        "DMTCRG": 1,
+        "XDMG": 4,
+        "XScreen": 1
+      },
+      "note": "Inclui tabelas extraídas dos livros pelo upstream; não distribuídas automaticamente."
+    },
+    "itemProperty": {
+      "total": 27,
+      "open": 0,
+      "files": [
+        "data/items-base.json"
+      ],
+      "sources": {},
+      "note": "Metadados auxiliares de equipamentos; importáveis com o arquivo local."
+    },
+    "itemType": {
+      "total": 67,
+      "open": 0,
+      "files": [
+        "data/items-base.json"
+      ],
+      "sources": {},
+      "note": "Metadados auxiliares de equipamentos; importáveis com o arquivo local."
+    },
+    "itemTypeAdditionalEntries": {
+      "total": 2,
+      "open": 0,
+      "files": [
+        "data/items-base.json"
+      ],
+      "sources": {},
+      "note": "Metadados auxiliares de equipamentos; importáveis com o arquivo local."
+    },
+    "itemEntry": {
+      "total": 13,
+      "open": 0,
+      "files": [
+        "data/items-base.json"
+      ],
+      "sources": {},
+      "note": "Metadados auxiliares de equipamentos; importáveis com o arquivo local."
+    },
+    "itemMastery": {
+      "total": 8,
+      "open": 8,
+      "files": [
+        "data/items-base.json"
+      ],
+      "sources": {},
+      "note": "Metadados auxiliares de equipamentos; importáveis com o arquivo local."
+    }
+  },
+  "errors": [],
+  "licenseCode": "MIT (README; código não reutilizado)",
+  "licenseData": "Somente registros marcados srd/srd52 no upstream; CC-BY-4.0 SRD; sem imagens/fluff",
+  "bundleSha256": "78d682d5217383a4f9014253e8d8d6a1ec11ac53d9df2a7a5827e01ecdf0860a",
+  "preparation": {
+    "at": "2026-10-26T13:05:09.155Z",
+    "removedSupplementaryBlocks": 24,
+    "excludedNames": 269,
+    "pdfPages": 767,
+    "spellClassLists": 658,
+    "editionCorrections": 1,
+    "classLookup": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-src/8790755429c346d20020eed7826d312d484c393f/data/generated/gendata-spell-source-lookup.json"
+  },
+  "actualBundleCounts": {
+    "action": 33,
+    "background": 5,
+    "condition": 30,
+    "disease": 6,
+    "status": 5,
+    "feat": 18,
+    "deck": 4,
+    "card": 106,
+    "deity": 46,
+    "baseitem": 177,
+    "language": 37,
+    "item": 699,
+    "itemGroup": 30,
+    "sense": 8,
+    "optionalfeature": 87,
+    "race": 18,
+    "subrace": 4,
+    "skill": 36,
+    "vehicle": 2,
+    "table": 1,
+    "trap": 16,
+    "hazard": 14,
+    "variantrule": 116,
+    "monster": 655,
+    "class": 24,
+    "subclass": 24,
+    "classFeature": 537,
+    "subclassFeature": 153,
+    "spell": 658,
+    "book": 767
+  },
+  "auxiliary": {
+    "data/generated/gendata-tables.json": {
+      "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-src/8790755429c346d20020eed7826d312d484c393f/data/generated/gendata-tables.json",
+      "keys": {
+        "table": 2377,
+        "tableGroup": 22
+      }
+    },
+    "data/loot.json": {
+      "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-src/8790755429c346d20020eed7826d312d484c393f/data/loot.json",
+      "keys": {
+        "individual": 8,
+        "hoard": 8,
+        "dragon": 4,
+        "gems": 12,
+        "artObjects": 10,
+        "magicItems": 33,
+        "dragonMundaneItems": 25
+      }
+    },
+    "data/magicvariants.json": {
+      "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-src/8790755429c346d20020eed7826d312d484c393f/data/magicvariants.json",
+      "keys": {
+        "_meta": "object",
+        "magicvariant": 230,
+        "linkedLootTables": "object"
+      }
+    },
+    "data/items-base.json": {
+      "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-src/8790755429c346d20020eed7826d312d484c393f/data/items-base.json",
+      "keys": {
+        "_meta": "object",
+        "baseitem": 230,
+        "itemProperty": 27,
+        "itemType": 67,
+        "itemTypeAdditionalEntries": 2,
+        "itemEntry": 13,
+        "itemMastery": 8
+      }
+    }
+  }
+}
