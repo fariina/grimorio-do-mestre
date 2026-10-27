@@ -1,6 +1,6 @@
 # Verificação da preparação para publicação
 
-Data: 26/10/2026. Código v1.2.0. Este relatório distingue testes locais de condições verificadas na hospedagem.
+Preparação Node: 26/10/2026. Atualização Sites: 27/10/2026. Código local v1.2.0 e adaptação web v1.3.0. Este relatório distingue testes locais de condições verificadas na hospedagem.
 
 ## Dados existentes
 
@@ -12,7 +12,7 @@ Data: 26/10/2026. Código v1.2.0. Este relatório distingue testes locais de con
 
 ## Verificações locais aprovadas
 
-**33 testes automatizados**, executados no workspace e na cópia limpa preparada para publicação. Os bancos dos testes são temporários ou em memória e não modificam a campanha do proprietário.
+**37 testes automatizados**, executados no workspace e na cópia limpa preparada para publicação. Os bancos dos testes são temporários ou em memória e não modificam a campanha do proprietário.
 
 - Fluxo campanha → cena → teste → encontro → participantes → combate → recompensa → backup.
 - Modo de produção recusa configuração sem OAuth/HTTPS e caminhos fora de DATA_DIR; modo local recusa escutar publicamente.
@@ -52,4 +52,35 @@ Nenhum arquivo extra apareceu na árvore: bancos, backups, livros, arquivos `.en
 - Confirmar disco montado e gravável em `/var/data`; reiniciar e republicar o serviço verificando os mesmos dados. Testes locais de reabertura não comprovam a persistência do provedor.
 - Testar fluxo completo e backup/restauração na URL definitiva, com dados de verificação antes de importar qualquer conteúdo pessoal.
 
-O link do repositório privado está confirmado. A aplicação ainda não tem URL online, pois a contratação foi adiada pelo proprietário. O procedimento e o checklist de validação externa estão em [PUBLICACAO.md](PUBLICACAO.md).
+O repositório permanece privado. A aplicação foi publicada pelo Sites em https://grimorio-do-mestre.vividbuddy13.chatgpt.site; o Render permanece sem contratação. O procedimento e o checklist de validação externa estão em [PUBLICACAO.md](PUBLICACAO.md).
+
+## Atualização: hospedagem Sites
+
+O AgroContábil Academy foi localizado na integração Sites, publicado em agrocontabilacademy.com.br. Foi criado outro Site, privado, para o Grimório; o Academy não sofreu alterações.
+
+- URL confirmada pela publicação privada: https://grimorio-do-mestre.vividbuddy13.chatgpt.site.
+- Projeto: appgprj_6adfbe917acc8191b53f027334edcf74. Audiência custom, somente um usuário proprietário, zero grupos e zero visitantes externos. A operação de publicação privada também verifica essa condição no backend da plataforma.
+- Fonte Sites inicial: ec03e2c985ed496b662df54802edd8802e60df6f. Compilação Vinext/Workers concluída; migrações D1 incluídas e R2 provisionado. Os arquivos pessoais ficaram fora da fonte e do pacote.
+- 37 testes locais aprovados, incluindo o adaptador D1 com SQLite real, concorrência transacional, pesquisa FTS5, biblioteca completa local e restauração compatível com o backup v2.
+- Workerd/D1/R2 reais em prévia local: campanha, cena, teste, três Goblins com IDs independentes, PV 7/4/7, condição individual, combate, recompensa e backup/restauração aprovados.
+- Navegador real: interface Sites, conta simulada de loopback, cena/teste e combate persistidos inspecionados. Essa identidade simulada não está no bundle de produção.
+- Produção: escrita de UUID isolado confirmou D1 e R2 por HTTPS; a mesma versão foi republicada e a leitura retornou o mesmo UUID com matches=true em 27/10/2026. A sonda não acessa campanhas ou biblioteca e não cria o proprietário. A chave foi removida da configuração da publicação final.
+- Sem login, o navegador mostrou a barreira “Entre para acessar”, sem apresentar dados. Login real da conta proprietária e teste interativo completo em produção dependem de concluir a entrada no ChatGPT; não foram presumidos a partir dos testes locais.
+- Banco local íntegro e backup antes da adaptação: backups/antes-sites-1793048167839.json, somente nesta máquina. Nenhuma transferência automática da campanha ou da biblioteca pessoal.
+
+As pendências Render acima descrevem apenas uma alternativa não contratada; não bloqueiam o Site publicado. Procedimentos e limites específicos em [HOSPEDAGEM-SITES.md](HOSPEDAGEM-SITES.md).
+
+## Validação final em produção — 27/10/2026
+
+Estas verificações posteriores substituem a pendência de login descrita na primeira publicação Sites acima.
+
+- Login real com a conta ChatGPT proprietária concluído no navegador. O painel exibiu acesso pessoal e carregou novamente após publicar a versão final.
+- Campanha `[TESTE ONLINE] Validação da hospedagem`, encontro personalizado e dois participantes caseiros criados pela interface publicada. Dano de 3 somente no segundo participante conservou PV 10/7; iniciar combate preservou esses valores.
+- A versão final foi republicada com o combate já salvo. Depois de atualizar a página, a mesma campanha, encontro, combate e PV 10/7 continuaram disponíveis. Os dados de teste ficam identificados; nenhuma campanha pessoal local foi transferida.
+- Exportação de backup pela interface online concluída. Arquivo JSON v2 conferido nesta máquina: uma campanha, dois elementos (encontro e combate), zero registros de biblioteca e dois históricos. O backup contém somente os dados de validação e o glossário inicial.
+- Requisições HTTPS anônimas a `/`, `/api/bootstrap`, `/api/records` e `/api/backup` retornaram 401. Política da plataforma confirmada com um único proprietário, zero grupos e zero visitantes externos. Outra identidade recebe 403 nos testes de backend; uma segunda conta real não foi utilizada.
+- Rota técnica `/internal/storage-check` desativada permanentemente no código: HTTP 404 em produção mesmo apresentando a antiga chave. A chave também foi removida da configuração da plataforma.
+- Fonte Sites final: `2528fd01f2c8de86a2c7b6a08dcf29d7dea13211`, versão `appgprj_6adfbe917acc8191b53f027334edcf74~appgver_232cf44ff29881918a3aa79e8a4d6d59`. Republicação concluída: `appgdep_6ae08f5d069c8191914c4437948531f2`.
+- Suíte final executada novamente: 37 testes aprovados, zero falhas. Integridade local `ok` e sete tabelas pessoais iguais ao backup anterior.
+
+A restauração completa passou nos testes automatizados e no runtime local Workerd/D1/R2. A restauração pela interface publicada ainda não foi declarada verificada. Importar o backup pessoal continua sendo uma ação do proprietário após entrar; instalações local e web não sincronizam automaticamente.

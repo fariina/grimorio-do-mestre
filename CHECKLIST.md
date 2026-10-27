@@ -54,3 +54,19 @@ Não há promessa de equivalência integral ao 5etools. Dados editoriais restrit
 - [ ] Configurar OAuth externo e publicar o container
 - [ ] Verificar HTTPS, duas contas reais, volume e reinício/republicação no host
 - [ ] Importar dados pessoais: somente por ação explícita do proprietário após validar login
+
+## Hospedagem Sites v1.3
+
+- [x] Identificar a hospedagem do AgroContábil Academy e manter esse site intacto
+- [x] Criar novo Site privado, com um único proprietário e sem visitantes externos
+- [x] Adaptar backend, D1/FTS5 e R2, preservando o modo Node/SQLite local
+- [x] Backup local antes da adaptação; nenhum dado pessoal transferido automaticamente
+- [x] Identidade ChatGPT validada no servidor, vinculação do ID autorizado e CSRF
+- [x] Prévias persistentes, cópias anteriores e troca atômica do conjunto de dados
+- [x] 37 testes e fluxo completo em Workerd/D1/R2 local
+- [x] Compilar e publicar pelo fluxo privado do Sites
+- [x] Sonda isolada D1/R2 preservada após republicar a versão em produção
+- [x] Verificação temporária desativada no código e confirmada por HTTPS (404 mesmo com a chave antiga)
+- [ ] Atualizar a adaptação Sites no GitHub privado e conferir a árvore remota
+- [x] Login real do proprietário, campanha, encontro, dois participantes e combate verificados na URL publicada
+- [ ] Importar dados pessoais somente por ação explícita do proprietário após entrar

@@ -2,11 +2,12 @@ import {readdirSync,readFileSync,statSync,writeFileSync,mkdirSync,existsSync} fr
 import {join,relative,resolve} from 'node:path';
 import {createHash} from 'node:crypto';
 // Lista positiva: nenhum diretório pessoal é enumerado para publicação.
-const roots=['lib','public','scripts','tests','docs'];
+const roots=['lib','public','scripts','tests','docs','online'];
 const fixed=['server.mjs','package.json','package-lock.json','README.md','LICENSE','CHECKLIST.md','Iniciar.cmd','.gitignore','.dockerignore','.env.example','.env.production.example','Dockerfile','render.yaml','reference/inventory.json','reference/documents.json','reference/translations-pt-br.json','reference/exclusions.json'];
 const allowedVendor=new Set(['public/vendor/manifest.json','public/vendor/PDFJS-LICENSE.txt']);
 const files=[];
-function walk(path){for(const item of readdirSync(path,{withFileTypes:true})){if(item.isSymbolicLink())throw Error('Link simbólico não permitido no pacote de publicação.');const file=join(path,item.name).replaceAll('\\','/');if(file.startsWith('public/vendor/')&&!allowedVendor.has(file)&&!item.isDirectory())continue;if(item.isDirectory()){if(file==='public/vendor'){for(const name of allowedVendor)if(existsSync(name))files.push(name);}else walk(file);}else files.push(file);}}
+const skipped=new Set(['node_modules','.git','.sites-runtime','.wrangler','.vinext','.next','dist','outputs','work','.agents','.codex','.yarn']);
+function walk(path){for(const item of readdirSync(path,{withFileTypes:true})){if(item.isDirectory()&&skipped.has(item.name))continue;if(item.isSymbolicLink())throw Error('Link simbólico não permitido no pacote de publicação.');const file=join(path,item.name).replaceAll('\\','/');if(file==='online/public/vendor'){const license=file+'/PDFJS-LICENSE.txt';if(existsSync(license))files.push(license);continue;}if(file.startsWith('public/vendor/')&&!allowedVendor.has(file)&&!item.isDirectory())continue;if(item.isDirectory()){if(file==='public/vendor'){for(const name of allowedVendor)if(existsSync(name))files.push(name);}else walk(file);}else files.push(file);}}
 roots.forEach(root=>{if(existsSync(root))walk(root);});fixed.forEach(file=>{if(existsSync(file))files.push(file);});
 const paths=[...new Set(files)].sort();
 const denied=/^(?:data|backups|imports|node_modules|\.runtime|\.git|\.codex|\.aws|\.agents)(?:\/|$)|(?:^|\/)\.env(?:$|\.)|\.(?:sqlite(?:-wal|-shm)?|pem|key|p12|pfx|log|bak|dump|zip|tgz)$/i;

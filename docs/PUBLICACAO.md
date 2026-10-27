@@ -1,4 +1,6 @@
-# Publicação privada — versão 1.2
+# Publicação privada — alternativa Node/Render
+
+**Hospedagem atual:** o Grimório já foi publicado pelo Sites, com login ChatGPT, banco D1 e armazenamento R2. Leia [HOSPEDAGEM-SITES.md](HOSPEDAGEM-SITES.md) para acesso, backup e manutenção. O restante deste documento descreve a alternativa Node/SQLite em Render, que permanece sem contratação.
 
 O código pode ficar em um repositório privado; o acesso aos dados é controlado separadamente pelo backend. A configuração de produção exige OAuth GitHub, HTTPS e caminhos de armazenamento em `DATA_DIR`. A conta autorizada é `fariina`, ID numérico **84630880**, obtido da integração GitHub. O nome de usuário não substitui a comparação desse ID.
 
@@ -8,7 +10,7 @@ Decisão do proprietário: **não contratar hospedagem por enquanto; deixar a co
 
 Preparação local implementada, com testes automatizados de autenticação e persistência. Consulte `VERIFICACAO-PUBLICACAO.md` para os resultados e o que ainda depende de acesso externo. Um arquivo `render.yaml` preparado não significa que um serviço foi contratado ou publicado.
 
-Repositório criado pelo proprietário: [fariina/grimorio-do-mestre](https://github.com/fariina/grimorio-do-mestre). A integração confirmou a visibilidade **Private**, a conta proprietária e a permissão de gravação. A publicação e conferência da árvore de código estão registradas no relatório de verificação. A aplicação não possui URL de hospedagem ativa.
+Repositório criado pelo proprietário: [fariina/grimorio-do-mestre](https://github.com/fariina/grimorio-do-mestre). A integração confirmou a visibilidade **Private**, a conta proprietária e a permissão de gravação. A publicação e conferência da árvore de código estão registradas no relatório de verificação. A URL ativa do Sites é https://grimorio-do-mestre.vividbuddy13.chatgpt.site, com audiência privada confirmada. A alternativa Render não foi ativada.
 
 Nenhum banco, livro ou backup pessoal deve ser enviado para GitHub ou para a hospedagem durante a publicação. Foi gerado um backup local antes das alterações em `backups/antes-publicacao-1793043960706.json`. Ele contém dados privados e não faz parte do pacote de código.
 

@@ -31,3 +31,11 @@ reference/*.pdf
 public/vendor/**
 !public/vendor/manifest.json
 !public/vendor/PDFJS-LICENSE.txt
+online/node_modules/
+online/.git/
+online/.sites-runtime/
+online/.wrangler/
+online/.vinext/
+online/dist/
+online/outputs/
+online/.dev.vars*

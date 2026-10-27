@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "language": "pt-BR",
+  "status": "reviewed",
+  "attribution": "Tradução editorial local não oficial de conteúdo SRD 5.1, CC-BY-4.0. Revisão mecânica preserva os marcadores e valores.",
+  "records": [
+    {
+      "id": "353677ad80ff69a3a3747e3414d3460a",
+      "sourceHash": "4dea1569d3a184af6d3dedaf83d2b72e82c89021fc0f4b45775e110d1a96d170",
+      "segments": {
+        "Goblin": "Goblin",
+        "The goblin can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns.": "O goblin pode realizar a ação {@action Disengage} ou {@action Hide} como uma ação bônus em cada um de seus turnos.",
+        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage.": "{@atk mw} {@hit 4} para atingir, alcance 5 ft., um alvo. {@h}5 ({@damage 1d6 + 2}) de dano cortante.",
+        "{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage.": "{@atk rw} {@hit 4} para atingir, alcance 80/320 ft., um alvo. {@h}5 ({@damage 1d6 + 2}) de dano perfurante."
+      }
+    }
+  ]
+}

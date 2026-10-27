@@ -2,7 +2,7 @@
 
 Aplicação pessoal em português brasileiro para preparar e narrar campanhas de D&D. Servidor em Node.js 24, SQLite local e interface web sem etapa de build. O modo local não exige conta ou chave de IA. Uma cópia obtida do GitHub usa `npm ci` para instalar PDF.js antes de iniciar; esta instalação já contém os arquivos necessários.
 
-Repositório privado: [fariina/grimorio-do-mestre](https://github.com/fariina/grimorio-do-mestre), branch `main`. O código foi publicado; **a aplicação ainda não está hospedada online**. Por decisão do proprietário, a configuração do Render fica preparada, sem contratar serviço pago. Seus dados pessoais não acompanham o repositório.
+Repositório privado: [fariina/grimorio-do-mestre](https://github.com/fariina/grimorio-do-mestre), branch `main`. A aplicação foi publicada em **[Grimório do Mestre](https://grimorio-do-mestre.vividbuddy13.chatgpt.site)**, pelo Sites, com acesso privado pela conta ChatGPT proprietária. O Render permanece sem contratação. Seus dados pessoais não acompanham o repositório nem são enviados automaticamente à hospedagem. Veja [como entrar e importar seu backup](docs/HOSPEDAGEM-SITES.md).
 
 ## Abrir no seu computador
 
@@ -24,7 +24,7 @@ Se a porta estiver ocupada, a janela avisará. Pode haver outra instância já d
 
 ## Acesso online privado
 
-Consulte [o guia de publicação](docs/PUBLICACAO.md) e [o relatório de verificação](docs/VERIFICACAO-PUBLICACAO.md). A versão 1.2 implementa OAuth GitHub com uma única conta autorizada, sessões persistidas em SQLite, proteção de todas as APIs/arquivos privados e configuração de volume. A proposta Render tem custo e exige aprovação antes de criar o serviço. Código preparado e testes locais não comprovam uma publicação externa.
+A hospedagem atual usa a mesma plataforma Sites do AgroContábil Academy, com D1/R2 persistentes e login pela conta ChatGPT. Consulte [o guia Sites](docs/HOSPEDAGEM-SITES.md), [a alternativa Node/Render](docs/PUBLICACAO.md) e [o relatório de verificação](docs/VERIFICACAO-PUBLICACAO.md). A versão 1.2 implementa OAuth GitHub com uma única conta autorizada, sessões persistidas em SQLite, proteção de todas as APIs/arquivos privados e configuração de volume. A proposta Render tem custo e exige aprovação antes de criar o serviço. Código preparado e testes locais não comprovam uma publicação externa.
 
 **O pacote de código do GitHub não inclui sua biblioteca gerada, PDFs, campanhas nem backups.** A cópia online começa vazia; importe seu backup pela interface após validar o login. Os 4.316 registros citados neste README descrevem a biblioteca desta instalação local e o pacote adquirido anteriormente. O inventário preserva a cobertura; a tela mostra a contagem real de cada instalação.
 
@@ -164,7 +164,7 @@ npm test
 
 Os testes cobrem exemplos oficiais de dificuldade, ND fracionário, dados, tesouro, PV temporários, durações, undo, importação, busca bilíngue/sem acentos, preservação de notas, persistência após reabrir o banco, restauração/rollback e o fluxo completo de preparação até combate/recompensa. Os dados de teste ficam em bancos em memória ou diretórios temporários e não entram na sua campanha.
 
-Na versão 1.2, o navegador foi conectado e houve QA visual local em banco isolado: campanha, biblioteca, três participantes independentes e início do combate preservando PV/condições. A suíte atual tem 33 testes aprovados. Login real e persistência no provedor ainda dependem da publicação: veja [o relatório](docs/VERIFICACAO-PUBLICACAO.md). A cobertura e os demais limites estão em [docs/COBERTURA.md](docs/COBERTURA.md).
+Na versão 1.2, o navegador foi conectado e houve QA visual local em banco isolado: campanha, biblioteca, três participantes independentes e início do combate preservando PV/condições. A suíte atual tem 37 testes aprovados. A versão Sites também passou no runtime Workerd/D1/R2 local; uma sonda isolada em produção persistiu após republicar. O login real do proprietário e o fluxo completo em sua sessão ainda exigem validação após entrar: veja [o relatório](docs/VERIFICACAO-PUBLICACAO.md). A cobertura e os demais limites estão em [docs/COBERTURA.md](docs/COBERTURA.md).
 
 Para reconstruir as referências, os scripts de aquisição são explícitos e acessam apenas fontes públicas; nunca leem seu banco ou arquivos pessoais. `scripts/acquire.mjs` gera o inventário e candidatos SRD; `prepare-reference.mjs` filtra/extrai os PDFs com as ferramentas locais; `enrich-reference.mjs` acrescenta as listas de classes; `enrich-inventory.mjs` e `report.mjs` completam o relatório. Faça backup antes de atualizar. O servidor usa o hash do pacote para atualizar referências sem sobrescrever a camada de anotações/traduções.
 
