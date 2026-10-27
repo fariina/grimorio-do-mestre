@@ -67,6 +67,7 @@ Não há promessa de equivalência integral ao 5etools. Dados editoriais restrit
 - [x] Compilar e publicar pelo fluxo privado do Sites
 - [x] Sonda isolada D1/R2 preservada após republicar a versão em produção
 - [x] Verificação temporária desativada no código e confirmada por HTTPS (404 mesmo com a chave antiga)
-- [ ] Atualizar a adaptação Sites no GitHub privado e conferir a árvore remota
+- [x] Adaptação Sites no GitHub privado: 211 arquivos com caminhos, tamanhos e hashes conferidos na árvore remota
 - [x] Login real do proprietário, campanha, encontro, dois participantes e combate verificados na URL publicada
+- [x] Exportação, prévia e restauração do backup de teste na web; cópia anterior em R2 e PV preservados
 - [ ] Importar dados pessoais somente por ação explícita do proprietário após entrar
